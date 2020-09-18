@@ -36,6 +36,30 @@ public class MainController : MonoBehaviour
     public TMP_Text Goal4Text;
 
     [SerializeField]
+    public GameObject Goal5;
+
+    [SerializeField]
+    public TMP_Text Goal5Text;
+
+    [SerializeField]
+    public GameObject Goal6;
+
+    [SerializeField]
+    public TMP_Text Goal6Text;
+
+    [SerializeField]
+    public GameObject Goal7;
+
+    [SerializeField]
+    public TMP_Text Goal7Text;
+
+    [SerializeField]
+    public GameObject Goal8;
+
+    [SerializeField]
+    public TMP_Text Goal8Text;
+
+    [SerializeField]
     public GameObject NewGoalPanel;
 
     [SerializeField]
@@ -74,13 +98,41 @@ public class MainController : MonoBehaviour
                 Goal3Text.text = goals[2].getGoal();
                 Goal3.SetActive(true);
                 Goal4.SetActive(false);
-                NewGoalbtn.gameObject.SetActive(true);
             }
             if (goals.Count >= 4)
             {
                 Debug.Log("4 GOALS!");
                 Goal4Text.text = goals[3].getGoal();
                 Goal4.SetActive(true);
+                Goal5.SetActive(false);
+            }
+            if (goals.Count >= 5)
+            {
+                Debug.Log("5 GOALS!");
+                Goal5Text.text = goals[4].getGoal();
+                Goal5.SetActive(true);
+                Goal6.SetActive(false);
+            }
+            if (goals.Count >= 6)
+            {
+                Debug.Log("6 GOALS!");
+                Goal6Text.text = goals[5].getGoal();
+                Goal6.SetActive(true);
+                Goal7.SetActive(false);
+            }
+            if (goals.Count >= 7)
+            {
+                Debug.Log("7 GOALS!");
+                Goal7Text.text = goals[6].getGoal();
+                Goal7.SetActive(true);
+                Goal8.SetActive(false);
+                NewGoalbtn.gameObject.SetActive(true);
+            }
+            if (goals.Count >= 8)
+            {
+                Debug.Log("8 GOALS!");
+                Goal8Text.text = goals[7].getGoal();
+                Goal8.SetActive(true);
                 NewGoalbtn.gameObject.SetActive(false);
             }
         }
@@ -94,6 +146,10 @@ public class MainController : MonoBehaviour
         Goal2.SetActive(false);
         Goal3.SetActive(false);
         Goal4.SetActive(false);
+        Goal5.SetActive(false);
+        Goal6.SetActive(false);
+        Goal7.SetActive(false);
+        Goal8.SetActive(false);
     }
 
     public void newGoalButtonHandler() {
@@ -142,6 +198,30 @@ public class MainController : MonoBehaviour
     public void deleteGoal4ButtonHandler() {
         Debug.Log("Goal Deleted!");
         goals.RemoveAt(3);
+        updateGoals();
+    }
+
+    public void deleteGoal5ButtonHandler() {
+        Debug.Log("Goal Deleted!");
+        goals.RemoveAt(4);
+        updateGoals();
+    }
+
+    public void deleteGoal6ButtonHandler() {
+        Debug.Log("Goal Deleted!");
+        goals.RemoveAt(5);
+        updateGoals();
+    }
+
+    public void deleteGoal7ButtonHandler() {
+        Debug.Log("Goal Deleted!");
+        goals.RemoveAt(6);
+        updateGoals();
+    }
+
+    public void deleteGoal8ButtonHandler() {
+        Debug.Log("Goal Deleted!");
+        goals.RemoveAt(7);
         updateGoals();
     }
 

@@ -263,7 +263,7 @@ public class MainController : MonoBehaviour
     }
 
     public void newGoalButtonHandler() {
-        Debug.Log("New Goal!");
+        Debug.Log("New!");
         NewGoalbtn.interactable = false;
         NewGoalPanel.SetActive(true);
     }
@@ -272,7 +272,7 @@ public class MainController : MonoBehaviour
         Debug.Log("Panel Closed!");
         NewGoalbtn.interactable = true;
         NewGoalPanel.SetActive(false);
-        NewGoalInf.text = "";
+        updateNewGoalPopup();
     }
 
     public void createNewGoalButtonHandler() {

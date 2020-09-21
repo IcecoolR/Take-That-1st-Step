@@ -29,5 +29,4 @@ public class Goal
     public System.DateTime getTimeCreated() {
         return this.timeCreated;
     }
-
 }

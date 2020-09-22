@@ -24,10 +24,22 @@ public class MainController : MonoBehaviour
     public TMP_Text Goal1Text;
 
     [SerializeField]
+    public Button Goal1Completedbtn;
+
+    [SerializeField]
+    public TMP_Text Habit1DaysLeftText;
+
+    [SerializeField]
     public GameObject Goal2;
 
     [SerializeField]
     public TMP_Text Goal2Text;
+
+    [SerializeField]
+    public Button Goal2Completedbtn;
+
+    [SerializeField]
+    public TMP_Text Habit2DaysLeftText;
 
     [SerializeField]
     public GameObject Goal3;
@@ -36,10 +48,22 @@ public class MainController : MonoBehaviour
     public TMP_Text Goal3Text;
 
     [SerializeField]
+    public Button Goal3Completedbtn;
+
+    [SerializeField]
+    public TMP_Text Habit3DaysLeftText;
+
+    [SerializeField]
     public GameObject Goal4;
 
     [SerializeField]
     public TMP_Text Goal4Text;
+
+    [SerializeField]
+    public Button Goal4Completedbtn;
+
+    [SerializeField]
+    public TMP_Text Habit4DaysLeftText;
 
     [SerializeField]
     public GameObject Goal5;
@@ -48,10 +72,22 @@ public class MainController : MonoBehaviour
     public TMP_Text Goal5Text;
 
     [SerializeField]
+    public Button Goal5Completedbtn;
+
+    [SerializeField]
+    public TMP_Text Habit5DaysLeftText;
+
+    [SerializeField]
     public GameObject Goal6;
 
     [SerializeField]
     public TMP_Text Goal6Text;
+
+    [SerializeField]
+    public Button Goal6Completedbtn;
+
+    [SerializeField]
+    public TMP_Text Habit6DaysLeftText;
 
     [SerializeField]
     public GameObject Goal7;
@@ -60,10 +96,22 @@ public class MainController : MonoBehaviour
     public TMP_Text Goal7Text;
 
     [SerializeField]
+    public Button Goal7Completedbtn;
+
+    [SerializeField]
+    public TMP_Text Habit7DaysLeftText;
+
+    [SerializeField]
     public GameObject Goal8;
 
     [SerializeField]
     public TMP_Text Goal8Text;
+
+    [SerializeField]
+    public Button Goal8Completedbtn;
+
+    [SerializeField]
+    public TMP_Text Habit8DaysLeftText;
 
     [SerializeField]
     public TMP_Text NewGoalPanelTitle;
@@ -110,6 +158,8 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("1 Goal!");
                     Goal1Text.text = goals[0].getGoal();
+                    Goal1Completedbtn.gameObject.SetActive(true);
+                    Habit1DaysLeftText.gameObject.SetActive(false);
                     Goal1.SetActive(true);
                     Goal2.SetActive(false);
                 }
@@ -117,6 +167,8 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("2 Goals!");
                     Goal2Text.text = goals[1].getGoal();
+                    Goal2Completedbtn.gameObject.SetActive(true);
+                    Habit2DaysLeftText.gameObject.SetActive(false);
                     Goal2.SetActive(true);
                     Goal3.SetActive(false);
                 }
@@ -124,6 +176,8 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("3 Goals!");
                     Goal3Text.text = goals[2].getGoal();
+                    Goal3Completedbtn.gameObject.SetActive(true);
+                    Habit3DaysLeftText.gameObject.SetActive(false);
                     Goal3.SetActive(true);
                     Goal4.SetActive(false);
                 }
@@ -131,6 +185,8 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("4 Goals!");
                     Goal4Text.text = goals[3].getGoal();
+                    Goal4Completedbtn.gameObject.SetActive(true);
+                    Habit4DaysLeftText.gameObject.SetActive(false);
                     Goal4.SetActive(true);
                     Goal5.SetActive(false);
                 }
@@ -138,6 +194,8 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("5 Goals!");
                     Goal5Text.text = goals[4].getGoal();
+                    Goal5Completedbtn.gameObject.SetActive(true);
+                    Habit5DaysLeftText.gameObject.SetActive(false);
                     Goal5.SetActive(true);
                     Goal6.SetActive(false);
                 }
@@ -145,6 +203,8 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("6 Goals!");
                     Goal6Text.text = goals[5].getGoal();
+                    Goal6Completedbtn.gameObject.SetActive(true);
+                    Habit6DaysLeftText.gameObject.SetActive(false);
                     Goal6.SetActive(true);
                     Goal7.SetActive(false);
                 }
@@ -152,6 +212,8 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("7 Goals!");
                     Goal7Text.text = goals[6].getGoal();
+                    Goal7Completedbtn.gameObject.SetActive(true);
+                    Habit7DaysLeftText.gameObject.SetActive(false);
                     Goal7.SetActive(true);
                     Goal8.SetActive(false);
                 }
@@ -159,6 +221,8 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("8 Goals!");
                     Goal8Text.text = goals[7].getGoal();
+                    Goal8Completedbtn.gameObject.SetActive(true);
+                    Habit8DaysLeftText.gameObject.SetActive(false);
                     Goal8.SetActive(true);
                     NewGoalbtn.gameObject.SetActive(false);
                 }
@@ -172,6 +236,9 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("1 Habit!");
                     Goal1Text.text = habits[0].getHabit();
+                    Goal1Completedbtn.gameObject.SetActive(false);
+                    Habit1DaysLeftText.text = "Days Remaining: " + habits[0].getDaysLeft();
+                    Habit1DaysLeftText.gameObject.SetActive(true);
                     Goal1.SetActive(true);
                     Goal2.SetActive(false);
                 }
@@ -179,6 +246,9 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("2 Habits!");
                     Goal2Text.text = habits[1].getHabit();
+                    Goal2Completedbtn.gameObject.SetActive(false);
+                    Habit2DaysLeftText.text = "Days Remaining: " + habits[1].getDaysLeft();
+                    Habit2DaysLeftText.gameObject.SetActive(true);
                     Goal2.SetActive(true);
                     Goal3.SetActive(false);
                 }
@@ -186,6 +256,9 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("3 Habits!");
                     Goal3Text.text = habits[2].getHabit();
+                    Goal3Completedbtn.gameObject.SetActive(false);
+                    Habit3DaysLeftText.text = "Days Remaining: " + habits[2].getDaysLeft();
+                    Habit3DaysLeftText.gameObject.SetActive(true);
                     Goal3.SetActive(true);
                     Goal4.SetActive(false);
                 }
@@ -193,6 +266,9 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("4 Habits!");
                     Goal4Text.text = habits[3].getHabit();
+                    Goal4Completedbtn.gameObject.SetActive(false);
+                    Habit4DaysLeftText.text = "Days Remaining: " + habits[3].getDaysLeft();
+                    Habit4DaysLeftText.gameObject.SetActive(true);
                     Goal4.SetActive(true);
                     Goal5.SetActive(false);
                 }
@@ -200,6 +276,9 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("5 Habits!");
                     Goal5Text.text = habits[4].getHabit();
+                    Goal5Completedbtn.gameObject.SetActive(false);
+                    Habit5DaysLeftText.text = "Days Remaining: " + habits[4].getDaysLeft();
+                    Habit5DaysLeftText.gameObject.SetActive(true);
                     Goal5.SetActive(true);
                     Goal6.SetActive(false);
                 }
@@ -207,6 +286,9 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("6 Habits!");
                     Goal6Text.text = habits[5].getHabit();
+                    Goal6Completedbtn.gameObject.SetActive(false);
+                    Habit6DaysLeftText.text = "Days Remaining: " + habits[5].getDaysLeft();
+                    Habit6DaysLeftText.gameObject.SetActive(true);
                     Goal6.SetActive(true);
                     Goal7.SetActive(false);
                 }
@@ -214,6 +296,9 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("7 Habits!");
                     Goal7Text.text = habits[6].getHabit();
+                    Goal7Completedbtn.gameObject.SetActive(false);
+                    Habit7DaysLeftText.text = "Days Remaining: " + habits[6].getDaysLeft();
+                    Habit7DaysLeftText.gameObject.SetActive(true);
                     Goal7.SetActive(true);
                     Goal8.SetActive(false);
                 }
@@ -221,6 +306,9 @@ public class MainController : MonoBehaviour
                 {
                     Debug.Log("8 Habits!");
                     Goal8Text.text = habits[7].getHabit();
+                    Goal8Completedbtn.gameObject.SetActive(false);
+                    Habit8DaysLeftText.text = "Days Remaining: " + habits[7].getDaysLeft();
+                    Habit8DaysLeftText.gameObject.SetActive(true);
                     Goal8.SetActive(true);
                     NewGoalbtn.gameObject.SetActive(false);
                 }
@@ -477,5 +565,7 @@ public class MainController : MonoBehaviour
         }
         updateGoals();
     }
+
+    public void completeGoal1ButtonHandler() { }
 
 }

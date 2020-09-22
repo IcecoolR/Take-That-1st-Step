@@ -19,8 +19,8 @@ public class OptionsController : MonoBehaviour
         InformationPanel.SetActive(true);
     }
 
-    public void OptionsButtonHandler() {
-        Debug.Log("Options!");
+    public void AboutButtonHandler() {
+        Debug.Log("About!");
         InformationPanel.SetActive(true);
     }
 

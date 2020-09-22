@@ -8,7 +8,7 @@ using TMPro;
 public class MainController : MonoBehaviour
 {
 
-    [Header("Main Buttons")]
+    [Header("Main Objects")]
 
     [SerializeField]
     public Button Todaybtn;
@@ -18,6 +18,12 @@ public class MainController : MonoBehaviour
 
     [SerializeField]
     public Button NewGoalbtn;
+
+    [SerializeField]
+    public GameObject ExtraGoals;
+
+    [SerializeField]
+    public TMP_Text ExtraGoalsText;
 
     [Header("Goal 1")]
 
@@ -247,10 +253,19 @@ public class MainController : MonoBehaviour
                     Goal8.SetActive(true);
                     NewGoalbtn.gameObject.SetActive(false);
                 }
+                if (goals.Count >= 9)
+                {
+                    ExtraGoalsText.text = $"+{goals.Count - 8}";
+                    ExtraGoals.gameObject.SetActive(true);
+                }
+                else {
+                    ExtraGoals.gameObject.SetActive(false);
+                }
             }
         }
         else {
             Debug.Log("Updating Habits!");
+            ExtraGoals.gameObject.SetActive(false);
             if (habits.Count != 0)
             {
                 if (habits.Count >= 1)
@@ -358,6 +373,7 @@ public class MainController : MonoBehaviour
         else {
             NewGoalPanelTitle.text = "New Habit";
             NewGoalInf.placeholder.GetComponent<TMP_Text>().text = "Enter a new habit...";
+            NumberOfDaysDropdown.value = 6;
             NumberOfDaysText.gameObject.SetActive(true);
             NumberOfDaysDropdown.gameObject.SetActive(true);
         }
@@ -426,6 +442,7 @@ public class MainController : MonoBehaviour
 
             }
         }
+        updateNewGoalPopup();
     }
 
     public void deleteGoal1ButtonHandler() {

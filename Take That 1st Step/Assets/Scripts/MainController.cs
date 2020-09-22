@@ -8,6 +8,8 @@ using TMPro;
 public class MainController : MonoBehaviour
 {
 
+    [Header("Main Buttons")]
+
     [SerializeField]
     public Button Todaybtn;
 
@@ -16,6 +18,8 @@ public class MainController : MonoBehaviour
 
     [SerializeField]
     public Button NewGoalbtn;
+
+    [Header("Goal 1")]
 
     [SerializeField]
     public GameObject Goal1;
@@ -29,6 +33,8 @@ public class MainController : MonoBehaviour
     [SerializeField]
     public TMP_Text Habit1DaysLeftText;
 
+    [Header("Goal 2")]
+
     [SerializeField]
     public GameObject Goal2;
 
@@ -40,6 +46,8 @@ public class MainController : MonoBehaviour
 
     [SerializeField]
     public TMP_Text Habit2DaysLeftText;
+
+    [Header("Goal 3")]
 
     [SerializeField]
     public GameObject Goal3;
@@ -53,6 +61,8 @@ public class MainController : MonoBehaviour
     [SerializeField]
     public TMP_Text Habit3DaysLeftText;
 
+    [Header("Goal 4")]
+
     [SerializeField]
     public GameObject Goal4;
 
@@ -64,6 +74,8 @@ public class MainController : MonoBehaviour
 
     [SerializeField]
     public TMP_Text Habit4DaysLeftText;
+
+    [Header("Goal 5")]
 
     [SerializeField]
     public GameObject Goal5;
@@ -77,6 +89,8 @@ public class MainController : MonoBehaviour
     [SerializeField]
     public TMP_Text Habit5DaysLeftText;
 
+    [Header("Goal 6")]
+
     [SerializeField]
     public GameObject Goal6;
 
@@ -88,6 +102,8 @@ public class MainController : MonoBehaviour
 
     [SerializeField]
     public TMP_Text Habit6DaysLeftText;
+
+    [Header("Goal 7")]
 
     [SerializeField]
     public GameObject Goal7;
@@ -101,6 +117,8 @@ public class MainController : MonoBehaviour
     [SerializeField]
     public TMP_Text Habit7DaysLeftText;
 
+    [Header("Goal 8")]
+
     [SerializeField]
     public GameObject Goal8;
 
@@ -113,11 +131,13 @@ public class MainController : MonoBehaviour
     [SerializeField]
     public TMP_Text Habit8DaysLeftText;
 
-    [SerializeField]
-    public TMP_Text NewGoalPanelTitle;
+    [Header("New Goal Panel")]
 
     [SerializeField]
     public GameObject NewGoalPanel;
+
+    [SerializeField]
+    public TMP_Text NewGoalPanelTitle;
 
     [SerializeField]
     public TMP_InputField NewGoalInf;
@@ -127,6 +147,7 @@ public class MainController : MonoBehaviour
 
     [SerializeField]
     public TMP_Dropdown NumberOfDaysDropdown;
+
 
     private bool isTodaySelected = true;
 

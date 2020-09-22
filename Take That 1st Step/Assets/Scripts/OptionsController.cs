@@ -14,23 +14,29 @@ public class OptionsController : MonoBehaviour
     [SerializeField]
     public TMP_Text TitleText;
 
-    [SerializeField]
-    public GameObject InspirationObject;
-
-    [SerializeField]
-    public GameObject CalendarObject;
-
-    [SerializeField]
-    public GameObject AboutObject;
+    [Header("Inspiration objects")]
 
     [SerializeField]
     public Button Inspirationbtn;
 
     [SerializeField]
+    public GameObject InspirationObject;
+
+    [Header("Calendar objects")]
+
+    [SerializeField]
     public Button Calendarbtn;
 
     [SerializeField]
+    public GameObject CalendarObject;
+
+    [Header("About objects")]
+
+    [SerializeField]
     public Button Aboutbtn;
+
+    [SerializeField]
+    public GameObject AboutObject;
 
 
     public void InspirationButtonHandler() {

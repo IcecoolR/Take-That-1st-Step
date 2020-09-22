@@ -74,6 +74,12 @@ public class MainController : MonoBehaviour
     [SerializeField]
     public TMP_InputField NewGoalInf;
 
+    [SerializeField]
+    public TMP_Text NumberOfDaysText;
+
+    [SerializeField]
+    public TMP_Dropdown NumberOfDaysDropdown;
+
     private bool isTodaySelected = true;
 
     private List<Goal> goals = new List<Goal>();
@@ -237,9 +243,14 @@ public class MainController : MonoBehaviour
         if (isTodaySelected) {
             NewGoalPanelTitle.text = "New Step";
             NewGoalInf.placeholder.GetComponent<TMP_Text>().text = "Enter a step for today...";
-        } else {
+            NumberOfDaysText.gameObject.SetActive(false);
+            NumberOfDaysDropdown.gameObject.SetActive(false);
+        }
+        else {
             NewGoalPanelTitle.text = "New Habit";
             NewGoalInf.placeholder.GetComponent<TMP_Text>().text = "Enter a new habit...";
+            NumberOfDaysText.gameObject.SetActive(true);
+            NumberOfDaysDropdown.gameObject.SetActive(true);
         }
         NewGoalInf.text = "";
     }
@@ -296,7 +307,7 @@ public class MainController : MonoBehaviour
             if (NewGoalInf.text != "")
             {
                 Debug.Log("Habit Created!");
-                Habit habit = new Habit(NewGoalInf.text, 7);
+                Habit habit = new Habit(NewGoalInf.text, int.Parse(NumberOfDaysDropdown.options[NumberOfDaysDropdown.value].text));
                 habits.Add(habit);
 
                 updateGoals();

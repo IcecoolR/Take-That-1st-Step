@@ -22,13 +22,13 @@ public class OptionsController : MonoBehaviour
     [SerializeField]
     public GameObject InspirationObject;
 
-    [Header("Calendar objects")]
+    [Header("Achievements objects")]
 
     [SerializeField]
-    public Button Calendarbtn;
+    public Button Achievementsbtn;
 
     [SerializeField]
-    public GameObject CalendarObject;
+    public GameObject AchievementsObject;
 
     [Header("About objects")]
 
@@ -43,22 +43,22 @@ public class OptionsController : MonoBehaviour
         Debug.Log("Inspiration!");
         TitleText.text = "Inspiration";
         InspirationObject.SetActive(true);
-        CalendarObject.SetActive(false);
+        AchievementsObject.SetActive(false);
         AboutObject.SetActive(false);
         Inspirationbtn.interactable = false;
-        Calendarbtn.interactable = true;
+        Achievementsbtn.interactable = true;
         Aboutbtn.interactable = true;
         InformationPanel.SetActive(true);
     }
 
     public void CalendarButtonHandler() {
-        Debug.Log("Calendar");
-        TitleText.text = "Calendar";
+        Debug.Log("Achievements!");
+        TitleText.text = "Achievements";
         InspirationObject.SetActive(false);
-        CalendarObject.SetActive(true);
+        AchievementsObject.SetActive(true);
         AboutObject.SetActive(false);
         Inspirationbtn.interactable = true;
-        Calendarbtn.interactable = false;
+        Achievementsbtn.interactable = false;
         Aboutbtn.interactable = true;
         InformationPanel.SetActive(true);
     }
@@ -67,10 +67,10 @@ public class OptionsController : MonoBehaviour
         Debug.Log("About!");
         TitleText.text = "About";
         InspirationObject.SetActive(false);
-        CalendarObject.SetActive(false);
+        AchievementsObject.SetActive(false);
         AboutObject.SetActive(true);
         Inspirationbtn.interactable = true;
-        Calendarbtn.interactable = true;
+        Achievementsbtn.interactable = true;
         Aboutbtn.interactable = false;
         InformationPanel.SetActive(true);
     }

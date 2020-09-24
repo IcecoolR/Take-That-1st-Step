@@ -135,13 +135,6 @@ public class OptionsController : MonoBehaviour
     private List<Achievement> achievements = new List<Achievement>();
 
 
-    void Start() {
-        achievements = mainController.getPlayer().getAchievements();
-
-        updateAchievements();
-        
-    }
-
     private void achievementGot(int index) {
         achievements[index].setCompleted(true);
 
@@ -211,6 +204,8 @@ public class OptionsController : MonoBehaviour
         Debug.Log("Achievements!");
         if (buttonSelected != 2)
         {
+            achievements = mainController.getPlayer().getAchievements();
+            updateAchievements();
             TitleText.text = "Achievements";
             InspirationObject.SetActive(false);
             AchievementsObject.SetActive(true);

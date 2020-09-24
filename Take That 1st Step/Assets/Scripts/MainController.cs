@@ -25,6 +25,8 @@ public class MainController : MonoBehaviour
     [SerializeField]
     public TMP_Text ExtraGoalsText;
 
+    public OptionsController optionsController;
+
     [Header("Goal 1")]
 
     [SerializeField]
@@ -154,7 +156,6 @@ public class MainController : MonoBehaviour
     [SerializeField]
     public TMP_Dropdown NumberOfDaysDropdown;
 
-
     private bool isTodaySelected = true;
     private Player player = new Player();
     private List<Goal> goals = new List<Goal>();
@@ -166,6 +167,7 @@ public class MainController : MonoBehaviour
 
         goals = player.getGoals();
         habits = player.getHabits();
+        optionsController.initaliseAchievements();
 
         updateGoals();
     }
@@ -174,7 +176,7 @@ public class MainController : MonoBehaviour
         return player;
     }
 
-    private void SaveState() {
+    public void SaveState() {
         player.SavePlayer();
     }
 

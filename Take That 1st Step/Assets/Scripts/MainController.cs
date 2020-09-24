@@ -425,31 +425,31 @@ public class MainController : MonoBehaviour
     }
 
     public void createNewGoalButtonHandler() {
-        NewGoalbtn.interactable = true;
-        if (isTodaySelected)
-        {
-            if (NewGoalInf.text != "")
-            {
+        if (NewGoalInf.text != "") {
+
+            if (isTodaySelected) {
+
                 Debug.Log("Goal Created!");
                 Goal goal = new Goal(NewGoalInf.text);
                 goals.Add(goal);
 
                 updateGoals();
 
+                NewGoalbtn.interactable = true;
                 NewGoalPanel.SetActive(false);
                 NewGoalInf.text = "";
-
+                
             }
-        }
-        else {
-            if (NewGoalInf.text != "")
+            else
             {
+
                 Debug.Log("Habit Created!");
                 Habit habit = new Habit(NewGoalInf.text, int.Parse(NumberOfDaysDropdown.options[NumberOfDaysDropdown.value].text));
                 habits.Add(habit);
 
                 updateGoals();
 
+                NewGoalbtn.interactable = true;
                 NewGoalPanel.SetActive(false);
                 NewGoalInf.text = "";
 

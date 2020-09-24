@@ -181,7 +181,6 @@ public class MainController : MonoBehaviour
     private void updateGoals() {
         resetGoals();
         NewGoalbtn.gameObject.SetActive(true);
-        SaveState();
         if (isTodaySelected)
         {
             Debug.Log("Updating Goals!");
@@ -454,6 +453,7 @@ public class MainController : MonoBehaviour
 
             }
         }
+        SaveState();
         updateNewGoalPopup();
     }
 
@@ -473,6 +473,7 @@ public class MainController : MonoBehaviour
             }
             habits.RemoveAt(0);
         }
+        SaveState();
         updateGoals();
     }
 
@@ -493,6 +494,7 @@ public class MainController : MonoBehaviour
             }
             habits.RemoveAt(1);
         }
+        SaveState();
         updateGoals();
     }
 
@@ -513,6 +515,7 @@ public class MainController : MonoBehaviour
             }
             habits.RemoveAt(2);
         }
+        SaveState();
         updateGoals();
     }
 
@@ -533,6 +536,7 @@ public class MainController : MonoBehaviour
             }
             habits.RemoveAt(3);
         }
+        SaveState();
         updateGoals();
     }
 
@@ -553,6 +557,7 @@ public class MainController : MonoBehaviour
             }
             habits.RemoveAt(4);
         }
+        SaveState();
         updateGoals();
     }
 
@@ -573,6 +578,7 @@ public class MainController : MonoBehaviour
             }
             habits.RemoveAt(5);
         }
+        SaveState();
         updateGoals();
     }
 
@@ -593,6 +599,7 @@ public class MainController : MonoBehaviour
             }
             habits.RemoveAt(6);
         }
+        SaveState();
         updateGoals();
     }
 
@@ -613,6 +620,7 @@ public class MainController : MonoBehaviour
             }
             habits.RemoveAt(7);
         }
+        SaveState();
         updateGoals();
     }
 

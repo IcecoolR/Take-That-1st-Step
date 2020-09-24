@@ -8,7 +8,7 @@ public static class SaveLoadSystem {
     public static void SaveSystem(Player player) {
 
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Path.Combine(Application.persistentDataPath, "player.data");
+        string path = Path.Combine(Application.persistentDataPath, "player.tt1s");
         FileStream stream = new FileStream(path, FileMode.Create);
 
         PlayerData data = new PlayerData(player);
@@ -19,7 +19,7 @@ public static class SaveLoadSystem {
     }
 
     public static PlayerData LoadPlayer() {
-        string path = Path.Combine(Application.persistentDataPath, "player.data");
+        string path = Path.Combine(Application.persistentDataPath, "player.tt1s");
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();

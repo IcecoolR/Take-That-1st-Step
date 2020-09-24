@@ -7455,6 +7455,7 @@ MonoBehaviour:
   Ach10Description: {fileID: 538828081}
   Aboutbtn: {fileID: 594618729}
   AboutObject: {fileID: 2053411132}
+  mainController: {fileID: 1125562531}
 --- !u!1 &1019156024
 GameObject:
   m_ObjectHideFlags: 0
@@ -14533,7 +14534,7 @@ GameObject:
   - component: {fileID: 1890314254}
   - component: {fileID: 1890314253}
   m_Layer: 5
-  m_Name: 'Main: Canvas'
+  m_Name: 'Root: Canvas'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

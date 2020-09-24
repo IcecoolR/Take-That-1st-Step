@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using static MainController;
 using TMPro;
 
 public class OptionsController : MonoBehaviour
@@ -128,33 +129,26 @@ public class OptionsController : MonoBehaviour
     [SerializeField]
     public GameObject AboutObject;
 
+    public MainController mainController;
+    
     private int buttonSelected = 0;
     private List<Achievement> achievements = new List<Achievement>();
 
 
     void Start() {
-        achievements.Add(new Achievement(Ach1Title.text, Ach1Description.text));
-        achievements.Add(new Achievement(Ach2Title.text, Ach2Description.text));
-        achievements.Add(new Achievement(Ach3Title.text, Ach3Description.text));
-        achievements.Add(new Achievement(Ach4Title.text, Ach4Description.text));
-        achievements.Add(new Achievement(Ach5Title.text, Ach5Description.text));
-        achievements.Add(new Achievement(Ach6Title.text, Ach6Description.text));
-        achievements.Add(new Achievement(Ach7Title.text, Ach7Description.text));
-        achievements.Add(new Achievement(Ach8Title.text, Ach8Description.text));
-        achievements.Add(new Achievement(Ach9Title.text, Ach9Description.text));
-        achievements.Add(new Achievement(Ach10Title.text, Ach10Description.text));
+        achievements = mainController.getPlayer().getAchievements();
 
         updateAchievements();
         
     }
 
-    public void achievementGot(int index) {
+    private void achievementGot(int index) {
         achievements[index].setCompleted(true);
 
         updateAchievements();
     }
 
-    public void updateAchievements() {
+    private void updateAchievements() {
 
         if (achievements[0].isCompleted()) {
             Ach1Background.GetComponent<Image>().color = new Color32(0, 255, 0, 255);

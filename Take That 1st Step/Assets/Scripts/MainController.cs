@@ -156,20 +156,32 @@ public class MainController : MonoBehaviour
 
 
     private bool isTodaySelected = true;
-
+    private Player player = new Player();
     private List<Goal> goals = new List<Goal>();
     private List<Habit> habits = new List<Habit>();
 
 
-    // Start is called before the first frame update
-    // void Start() { }
+    void Start() {
+        player.LoadPlayer();
 
-    // Update is called once per frame
-    // void Update() { }
+        goals = player.getGoals();
+        habits = player.getHabits();
 
-    public void updateGoals() {
+        updateGoals();
+    }
+
+    public Player getPlayer() {
+        return player;
+    }
+
+    private void SaveState() {
+        player.SavePlayer();
+    }
+
+    private void updateGoals() {
         resetGoals();
         NewGoalbtn.gameObject.SetActive(true);
+        SaveState();
         if (isTodaySelected)
         {
             Debug.Log("Updating Goals!");
@@ -352,7 +364,7 @@ public class MainController : MonoBehaviour
         }
     }
 
-    public void resetGoals() {
+    private void resetGoals() {
         Goal1.SetActive(false);
         Goal2.SetActive(false);
         Goal3.SetActive(false);
@@ -363,7 +375,7 @@ public class MainController : MonoBehaviour
         Goal8.SetActive(false);
     }
 
-    public void updateNewGoalPopup() {
+    private void updateNewGoalPopup() {
         if (isTodaySelected) {
             NewGoalPanelTitle.text = "New Step";
             NewGoalInf.placeholder.GetComponent<TMP_Text>().text = "Enter a step for today...";

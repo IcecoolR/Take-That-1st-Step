@@ -8,12 +8,14 @@ public class PlayerData
     public Goal[] goals;
     public Habit[] habits;
     public bool[] achievements;
+    public int goalCount;
 
     public PlayerData(Player player) {
 
         goals = player.getGoals().ToArray();
         habits = player.getHabits().ToArray();
-        achievements = player.getAchievements().ToArray();        
+        achievements = player.getAchievements().ToArray();
+        goalCount = player.getGoalCount();    
 
     }
 

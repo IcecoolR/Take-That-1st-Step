@@ -9,27 +9,30 @@ public class Player
     private List<Goal> goals;
     private List<Habit> habits;
     private List<bool> achievements;
+    private int goalCount;
 
     public Player() {
-        goals = new List<Goal>();
-        habits = new List<Habit>();
-        achievements = new List<bool>();
-        achievements.Add(true);
-        achievements.Add(false);
-        achievements.Add(false);
-        achievements.Add(false);
-        achievements.Add(false);
-        achievements.Add(false);
-        achievements.Add(false);
-        achievements.Add(false);
-        achievements.Add(false);
-        achievements.Add(false);
+        this.goals = new List<Goal>();
+        this.habits = new List<Habit>();
+        this.achievements = new List<bool>();
+        this.achievements.Add(true);
+        this.achievements.Add(false);
+        this.achievements.Add(false);
+        this.achievements.Add(false);
+        this.achievements.Add(false);
+        this.achievements.Add(false);
+        this.achievements.Add(false);
+        this.achievements.Add(false);
+        this.achievements.Add(false);
+        this.achievements.Add(false);
+        this.goalCount = 0;
     }
 
     public Player(List<Goal> goals, List<Habit> habits, List<bool> achievements) {
         this.goals = goals;
         this.habits = habits;
         this.achievements = achievements;
+        this.goalCount = 0;
     }
 
     public void SavePlayer() {
@@ -43,6 +46,7 @@ public class Player
             this.setGoals(new List<Goal>(data.goals));
             this.setHabits(new List<Habit>(data.habits));
             this.setAchievements(new List<bool>(data.achievements));
+            this.setGoalCount(data.goalCount);
         }
     }
 
@@ -58,6 +62,10 @@ public class Player
         return achievements;
     }
 
+    public int getGoalCount() {
+        return goalCount;
+    }
+
     public void setGoals(List<Goal> goals) {
         this.goals = goals;
     }
@@ -68,6 +76,14 @@ public class Player
 
     public void setAchievements(List<bool> achievements) {
         this.achievements = achievements;
+    }
+
+    public void incrementGoalCount() {
+        this.goalCount = goalCount + 1;
+    }
+
+    public void setGoalCount(int goalCount) {
+        this.goalCount = goalCount;
     }
 
 }

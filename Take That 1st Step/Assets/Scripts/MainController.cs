@@ -503,9 +503,7 @@ public class MainController : MonoBehaviour
 
                     SaveState();
                 }
-
-            }
-        
+            }        
         }
     }
 
@@ -521,7 +519,16 @@ public class MainController : MonoBehaviour
 
             if (completed) {
                 optionsController.achievementGot(3);
-                Debug.Log("Goal Completed! ");
+                player.incrementGoalCount();
+                if (player.getGoalCount() == 3) {
+                    optionsController.achievementGot(4);
+                }
+                if (player.getGoalCount() == 20) {
+                    optionsController.achievementGot(5);
+                }
+                if (player.getGoalCount() == 100) {
+                    optionsController.achievementGot(6);
+                }
             }
 
             goals.RemoveAt(0);
@@ -552,7 +559,16 @@ public class MainController : MonoBehaviour
             if (completed)
             {
                 optionsController.achievementGot(3);
-                Debug.Log("Goal Completed! ");
+                player.incrementGoalCount();
+                if (player.getGoalCount() == 3) {
+                    optionsController.achievementGot(4);
+                }
+                if (player.getGoalCount() == 20) {
+                    optionsController.achievementGot(5);
+                }
+                if (player.getGoalCount() == 100) {
+                    optionsController.achievementGot(6);
+                }
             }
 
             goals.RemoveAt(1);
@@ -583,7 +599,16 @@ public class MainController : MonoBehaviour
             if (completed)
             {
                 optionsController.achievementGot(3);
-                Debug.Log("Goal Completed! ");
+                player.incrementGoalCount();
+                if (player.getGoalCount() == 3) {
+                    optionsController.achievementGot(4);
+                }
+                if (player.getGoalCount() == 20) {
+                    optionsController.achievementGot(5);
+                }
+                if (player.getGoalCount() == 100) {
+                    optionsController.achievementGot(6);
+                }
             }
 
             goals.RemoveAt(2);
@@ -613,7 +638,16 @@ public class MainController : MonoBehaviour
 
             if (completed) {
                 optionsController.achievementGot(3);
-                Debug.Log("Goal Completed! ");
+                player.incrementGoalCount();
+                if (player.getGoalCount() == 3) {
+                    optionsController.achievementGot(4);
+                }
+                if (player.getGoalCount() == 20) {
+                    optionsController.achievementGot(5);
+                }
+                if (player.getGoalCount() == 100) {
+                    optionsController.achievementGot(6);
+                }
             }
 
             goals.RemoveAt(3);
@@ -643,7 +677,16 @@ public class MainController : MonoBehaviour
 
             if (completed) {
                 optionsController.achievementGot(3);
-                Debug.Log("Goal Completed! ");
+                player.incrementGoalCount();
+                if (player.getGoalCount() == 3) {
+                    optionsController.achievementGot(4);
+                }
+                if (player.getGoalCount() == 20) {
+                    optionsController.achievementGot(5);
+                }
+                if (player.getGoalCount() == 100) {
+                    optionsController.achievementGot(6);
+                }
             }
 
             goals.RemoveAt(4);
@@ -673,7 +716,16 @@ public class MainController : MonoBehaviour
 
             if (completed) {
                 optionsController.achievementGot(3);
-                Debug.Log("Goal Completed! ");
+                player.incrementGoalCount();
+                if (player.getGoalCount() == 3) {
+                    optionsController.achievementGot(4);
+                }
+                if (player.getGoalCount() == 20) {
+                    optionsController.achievementGot(5);
+                }
+                if (player.getGoalCount() == 100) {
+                    optionsController.achievementGot(6);
+                }
             }
 
             goals.RemoveAt(5);
@@ -703,8 +755,17 @@ public class MainController : MonoBehaviour
 
             if (completed) {
                 optionsController.achievementGot(3);
-                Debug.Log("Goal Completed! ");
-            }
+                player.incrementGoalCount();
+                if (player.getGoalCount() == 3) {
+                    optionsController.achievementGot(4);
+                }
+                if (player.getGoalCount() == 20) {
+                    optionsController.achievementGot(5);
+                }
+                if (player.getGoalCount() == 100) {
+                    optionsController.achievementGot(6);
+                }
+             }
 
             goals.RemoveAt(6);
         }
@@ -733,7 +794,16 @@ public class MainController : MonoBehaviour
 
             if (completed) {
                 optionsController.achievementGot(3);
-                Debug.Log("Goal Completed! ");
+                player.incrementGoalCount();
+                if (player.getGoalCount() == 3) {
+                    optionsController.achievementGot(4);
+                }
+                if (player.getGoalCount() == 20) {
+                    optionsController.achievementGot(5);
+                }
+                if (player.getGoalCount() == 100) {
+                    optionsController.achievementGot(6);
+                }
             }
 
             goals.RemoveAt(7);

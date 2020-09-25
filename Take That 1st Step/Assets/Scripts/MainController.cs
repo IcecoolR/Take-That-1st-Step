@@ -462,6 +462,7 @@ public class MainController : MonoBehaviour
                 {
 
                     Debug.Log("Goal Created!");
+                    optionsController.achievementGot(1);
                     Goal goal = new Goal(NewGoalInf.text);
                     goals.Add(goal);
 
@@ -490,6 +491,7 @@ public class MainController : MonoBehaviour
                 {
 
                     Debug.Log("Habit Created!");
+                    optionsController.achievementGot(2);
                     Habit habit = new Habit(NewGoalInf.text, int.Parse(NumberOfDaysDropdown.options[NumberOfDaysDropdown.value].text));
                     habits.Add(habit);
 
@@ -516,6 +518,12 @@ public class MainController : MonoBehaviour
             {
                 habits.Find(x => (x.getHabit() == Goal1Text.text)).setCompleted(completed);
             }
+
+            if (completed) {
+                optionsController.achievementGot(3);
+                Debug.Log("Goal Completed! ");
+            }
+
             goals.RemoveAt(0);
         }
         else
@@ -540,6 +548,13 @@ public class MainController : MonoBehaviour
             {
                 habits.Find(x => (x.getHabit() == Goal2Text.text)).setCompleted(completed);
             }
+
+            if (completed)
+            {
+                optionsController.achievementGot(3);
+                Debug.Log("Goal Completed! ");
+            }
+
             goals.RemoveAt(1);
         }
         else
@@ -564,6 +579,13 @@ public class MainController : MonoBehaviour
             {
                 habits.Find(x => (x.getHabit() == Goal3Text.text)).setCompleted(completed);
             }
+
+            if (completed)
+            {
+                optionsController.achievementGot(3);
+                Debug.Log("Goal Completed! ");
+            }
+
             goals.RemoveAt(2);
         }
         else
@@ -588,6 +610,12 @@ public class MainController : MonoBehaviour
             {
                 habits.Find(x => (x.getHabit() == Goal4Text.text)).setCompleted(completed);
             }
+
+            if (completed) {
+                optionsController.achievementGot(3);
+                Debug.Log("Goal Completed! ");
+            }
+
             goals.RemoveAt(3);
         }
         else
@@ -612,6 +640,12 @@ public class MainController : MonoBehaviour
             {
                 habits.Find(x => (x.getHabit() == Goal5Text.text)).setCompleted(completed);
             }
+
+            if (completed) {
+                optionsController.achievementGot(3);
+                Debug.Log("Goal Completed! ");
+            }
+
             goals.RemoveAt(4);
         }
         else
@@ -636,6 +670,12 @@ public class MainController : MonoBehaviour
             {
                 habits.Find(x => (x.getHabit() == Goal6Text.text)).setCompleted(completed);
             }
+
+            if (completed) {
+                optionsController.achievementGot(3);
+                Debug.Log("Goal Completed! ");
+            }
+
             goals.RemoveAt(5);
         }
         else
@@ -660,6 +700,12 @@ public class MainController : MonoBehaviour
             {
                 habits.Find(x => (x.getHabit() == Goal7Text.text)).setCompleted(completed);
             }
+
+            if (completed) {
+                optionsController.achievementGot(3);
+                Debug.Log("Goal Completed! ");
+            }
+
             goals.RemoveAt(6);
         }
         else
@@ -684,6 +730,12 @@ public class MainController : MonoBehaviour
             {
                 habits.Find(x => (x.getHabit() == Goal8Text.text)).setCompleted(completed);
             }
+
+            if (completed) {
+                optionsController.achievementGot(3);
+                Debug.Log("Goal Completed! ");
+            }
+
             goals.RemoveAt(7);
         }
         else

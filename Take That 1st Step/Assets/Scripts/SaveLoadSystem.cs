@@ -34,8 +34,8 @@ public static class SaveLoadSystem {
             return data;
         }
         else {
-            Debug.Log("File not found in " + path);
-            return null;
+            SaveSystem(new Player());
+            return LoadPlayer();
         }
     }
 

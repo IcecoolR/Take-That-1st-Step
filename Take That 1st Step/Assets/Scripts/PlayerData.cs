@@ -7,7 +7,7 @@ public class PlayerData
 {    
     public Goal[] goals;
     public Habit[] habits;
-    public Achievement[] achievements;
+    public bool[] achievements;
 
     public PlayerData(Player player) {
 

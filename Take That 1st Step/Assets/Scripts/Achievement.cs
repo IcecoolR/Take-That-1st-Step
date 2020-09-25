@@ -16,10 +16,16 @@ public class Achievement
         this.completed = false;
     }
 
-    public Achievement(string title, string description) {
+    public Achievement(string title) {
         this.title = title;
-        this.description = description;
+        this.description = "";
         this.completed = false;
+    }
+
+    public Achievement(string title, bool completed) {
+        this.title = title;
+        this.description = "";
+        this.completed = completed;
     }
 
     public Achievement(string title, string description, bool completed) {

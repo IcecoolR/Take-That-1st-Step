@@ -133,59 +133,75 @@ public class OptionsController : MonoBehaviour
     
     private int buttonSelected = 0;
     private List<Achievement> achievements = new List<Achievement>();
+    private List<bool> completedAch = new List<bool>();
 
 
-    public void achievementGot(int index) {
-        achievements[index].setCompleted(true);
-        mainController.getPlayer().setAchievements(achievements);
-        mainController.SaveState();
+    public void initaliseAchievements() {
+        completedAch = mainController.getPlayer().getAchievements();
+
+        achievements.Add(new Achievement(Ach1Title.text, completedAch[0]));
+        achievements.Add(new Achievement(Ach2Title.text, completedAch[1]));
+        achievements.Add(new Achievement(Ach3Title.text, completedAch[2]));
+        achievements.Add(new Achievement(Ach4Title.text, completedAch[3]));
+        achievements.Add(new Achievement(Ach5Title.text, completedAch[4]));
+        achievements.Add(new Achievement(Ach6Title.text, completedAch[5]));
+        achievements.Add(new Achievement(Ach7Title.text, completedAch[6]));
+        achievements.Add(new Achievement(Ach8Title.text, completedAch[7]));
+        achievements.Add(new Achievement(Ach9Title.text, completedAch[8]));
+        achievements.Add(new Achievement(Ach10Title.text, completedAch[9]));
+
         updateAchievements();
     }
 
-    public void initaliseAchievements() {
-        achievements = mainController.getPlayer().getAchievements();
+    public void achievementGot(int index) {
+        achievements[index].setCompleted(true);
+        completedAch[index] = true;
+
+        mainController.getPlayer().setAchievements(completedAch);
+        mainController.SaveState();
+        updateAchievements();
     }
 
     private void updateAchievements() {
 
         if (achievements[0].isCompleted()) {
-            Ach1Background.GetComponent<Image>().color = new Color32(0, 255, 0, 255);
+            Ach1Background.GetComponent<Image>().color = new Color32(0, 200, 0, 255);
         }
 
         if (achievements[1].isCompleted()) {
-            Ach2Background.GetComponent<Image>().color = new Color32(0, 255, 0, 255);
+            Ach2Background.GetComponent<Image>().color = new Color32(0, 200, 0, 255);
         }
 
         if (achievements[2].isCompleted()) {
-            Ach3Background.GetComponent<Image>().color = new Color32(0, 255, 0, 255);
+            Ach3Background.GetComponent<Image>().color = new Color32(0, 200, 0, 255);
         }
 
         if (achievements[3].isCompleted()) {
-            Ach4Background.GetComponent<Image>().color = new Color32(0, 255, 0, 255);
+            Ach4Background.GetComponent<Image>().color = new Color32(0, 200, 0, 255);
         }
 
         if (achievements[4].isCompleted()) {
-            Ach5Background.GetComponent<Image>().color = new Color32(0, 255, 0, 255);
+            Ach5Background.GetComponent<Image>().color = new Color32(0, 200, 0, 255);
         }
 
         if (achievements[5].isCompleted()) {
-            Ach6Background.GetComponent<Image>().color = new Color32(0, 255, 0, 255);
+            Ach6Background.GetComponent<Image>().color = new Color32(0, 200, 0, 255);
         }
 
         if (achievements[6].isCompleted()) {
-            Ach7Background.GetComponent<Image>().color = new Color32(0, 255, 0, 255);
+            Ach7Background.GetComponent<Image>().color = new Color32(0, 200, 0, 255);
         }
         
         if (achievements[7].isCompleted()) {
-            Ach8Background.GetComponent<Image>().color = new Color32(0, 255, 0, 255);
+            Ach8Background.GetComponent<Image>().color = new Color32(0, 200, 0, 255);
         }
 
         if (achievements[8].isCompleted()) {
-            Ach9Background.GetComponent<Image>().color = new Color32(0, 255, 0, 255);
+            Ach9Background.GetComponent<Image>().color = new Color32(0, 200, 0, 255);
         }
 
         if (achievements[9].isCompleted()) {
-            Ach10Background.GetComponent<Image>().color = new Color32(0, 255, 0, 255);
+            Ach10Background.GetComponent<Image>().color = new Color32(0, 200, 0, 255);
         }
     }
 
@@ -205,7 +221,7 @@ public class OptionsController : MonoBehaviour
         }
     }
 
-    public void CalendarButtonHandler() {
+    public void AchievementsButtonHandler() {
         Debug.Log("Achievements!");
         if (buttonSelected != 2)
         {

@@ -8,15 +8,25 @@ public class Player
 
     private List<Goal> goals;
     private List<Habit> habits;
-    private List<Achievement> achievements;
+    private List<bool> achievements;
 
     public Player() {
         goals = new List<Goal>();
         habits = new List<Habit>();
-        achievements = new List<Achievement>();
+        achievements = new List<bool>();
+        achievements.Add(true);
+        achievements.Add(false);
+        achievements.Add(false);
+        achievements.Add(false);
+        achievements.Add(false);
+        achievements.Add(false);
+        achievements.Add(false);
+        achievements.Add(false);
+        achievements.Add(false);
+        achievements.Add(false);
     }
 
-    public Player(List<Goal> goals, List<Habit> habits, List<Achievement> achievements) {
+    public Player(List<Goal> goals, List<Habit> habits, List<bool> achievements) {
         this.goals = goals;
         this.habits = habits;
         this.achievements = achievements;
@@ -32,7 +42,7 @@ public class Player
         {
             this.setGoals(new List<Goal>(data.goals));
             this.setHabits(new List<Habit>(data.habits));
-            this.setAchievements(new List<Achievement>(data.achievements));
+            this.setAchievements(new List<bool>(data.achievements));
         }
     }
 
@@ -44,7 +54,7 @@ public class Player
         return habits;
     }
 
-    public List<Achievement> getAchievements() {
+    public List<bool> getAchievements() {
         return achievements;
     }
 
@@ -56,7 +66,7 @@ public class Player
         this.habits = habits;
     }
 
-    public void setAchievements(List<Achievement> achievements) {
+    public void setAchievements(List<bool> achievements) {
         this.achievements = achievements;
     }
 

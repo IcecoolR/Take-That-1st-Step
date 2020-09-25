@@ -16,7 +16,7 @@ public class Habit
 
         this.habit = "";
         this.daysLeft = 0;
-        this.completed = false;
+        this.completed = true;
         this.timeCreated = System.DateTime.Now.Date;
 
     }
@@ -25,7 +25,7 @@ public class Habit
 
         this.habit = habit;
         this.daysLeft = daysLeft;
-        this.completed = false;
+        this.completed = true;
         this.timeCreated = System.DateTime.Now.Date;
 
     }
@@ -35,7 +35,7 @@ public class Habit
     }
 
     public void setCompleted(bool completed) {
-        this.completed = completed;
+        this.completed = this.completed && completed;
     }
 
     public bool isCompleted() {

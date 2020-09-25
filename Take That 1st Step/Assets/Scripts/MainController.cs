@@ -507,20 +507,20 @@ public class MainController : MonoBehaviour
         }
     }
 
-    public void deleteGoal1ButtonHandler()
+    public void Goal1ButtonHandler(bool completed)
     {
         if (isTodaySelected)
         {
-            Debug.Log("Goal Deleted!");
+            Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal1Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal1Text.text)).setCompleted(true);
+                habits.Find(x => (x.getHabit() == Goal1Text.text)).setCompleted(completed);
             }
             goals.RemoveAt(0);
         }
         else
         {
-            Debug.Log("Habit Deleted!");
+            Debug.Log("Habit Removed: " + completed);
             if (goals.Find(x => (x.getGoal() == Goal1Text.text)) != null)
             {
                 goals.Remove(goals.Find(x => (x.getGoal() == Goal1Text.text)));
@@ -531,20 +531,20 @@ public class MainController : MonoBehaviour
         updateGoals();
     }
 
-    public void deleteGoal2ButtonHandler()
+    public void Goal2ButtonHandler(bool completed)
     {
         if (isTodaySelected)
         {
-            Debug.Log("Goal Deleted!");
+            Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal2Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal2Text.text)).setCompleted(true);
+                habits.Find(x => (x.getHabit() == Goal2Text.text)).setCompleted(completed);
             }
             goals.RemoveAt(1);
         }
         else
         {
-            Debug.Log("Habit Deleted!");
+            Debug.Log("Habit Removed: " + completed);
             if (goals.Find(x => (x.getGoal() == Goal2Text.text)) != null)
             {
                 goals.Remove(goals.Find(x => (x.getGoal() == Goal2Text.text)));
@@ -555,20 +555,20 @@ public class MainController : MonoBehaviour
         updateGoals();
     }
 
-    public void deleteGoal3ButtonHandler()
+    public void Goal3ButtonHandler(bool completed)
     {
         if (isTodaySelected)
         {
-            Debug.Log("Goal Deleted!");
+            Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal3Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal3Text.text)).setCompleted(true);
+                habits.Find(x => (x.getHabit() == Goal3Text.text)).setCompleted(completed);
             }
             goals.RemoveAt(2);
         }
         else
         {
-            Debug.Log("Habit Deleted!");
+            Debug.Log("Habit Removed: " + completed);
             if (goals.Find(x => (x.getGoal() == Goal3Text.text)) != null)
             {
                 goals.Remove(goals.Find(x => (x.getGoal() == Goal3Text.text)));
@@ -579,20 +579,20 @@ public class MainController : MonoBehaviour
         updateGoals();
     }
 
-    public void deleteGoal4ButtonHandler()
+    public void Goal4ButtonHandler(bool completed)
     {
         if (isTodaySelected)
         {
-            Debug.Log("Goal Deleted!");
+            Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal4Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal4Text.text)).setCompleted(true);
+                habits.Find(x => (x.getHabit() == Goal4Text.text)).setCompleted(completed);
             }
             goals.RemoveAt(3);
         }
         else
         {
-            Debug.Log("Habit Deleted!");
+            Debug.Log("Habit Removed: " + completed);
             if (goals.Find(x => (x.getGoal() == Goal4Text.text)) != null)
             {
                 goals.Remove(goals.Find(x => (x.getGoal() == Goal4Text.text)));
@@ -603,20 +603,20 @@ public class MainController : MonoBehaviour
         updateGoals();
     }
 
-    public void deleteGoal5ButtonHandler()
+    public void Goal5ButtonHandler(bool completed)
     {
         if (isTodaySelected)
         {
-            Debug.Log("Goal Deleted!");
+            Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal5Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal5Text.text)).setCompleted(true);
+                habits.Find(x => (x.getHabit() == Goal5Text.text)).setCompleted(completed);
             }
             goals.RemoveAt(4);
         }
         else
         {
-            Debug.Log("Habit Deleted!");
+            Debug.Log("Habit Removed: " + completed);
             if (goals.Find(x => (x.getGoal() == Goal5Text.text)) != null)
             {
                 goals.Remove(goals.Find(x => (x.getGoal() == Goal5Text.text)));
@@ -627,20 +627,20 @@ public class MainController : MonoBehaviour
         updateGoals();
     }
 
-    public void deleteGoal6ButtonHandler()
+    public void Goal6ButtonHandler(bool completed)
     {
         if (isTodaySelected)
         {
-            Debug.Log("Goal Deleted!");
+            Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal6Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal6Text.text)).setCompleted(true);
+                habits.Find(x => (x.getHabit() == Goal6Text.text)).setCompleted(completed);
             }
             goals.RemoveAt(5);
         }
         else
         {
-            Debug.Log("Habit Deleted!");
+            Debug.Log("Habit Removed: " + completed);
             if (goals.Find(x => (x.getGoal() == Goal6Text.text)) != null)
             {
                 goals.Remove(goals.Find(x => (x.getGoal() == Goal6Text.text)));
@@ -651,20 +651,20 @@ public class MainController : MonoBehaviour
         updateGoals();
     }
 
-    public void deleteGoal7ButtonHandler()
+    public void Goal7ButtonHandler(bool completed)
     {
         if (isTodaySelected)
         {
-            Debug.Log("Goal Deleted!");
+            Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal7Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal7Text.text)).setCompleted(true);
+                habits.Find(x => (x.getHabit() == Goal7Text.text)).setCompleted(completed);
             }
             goals.RemoveAt(6);
         }
         else
         {
-            Debug.Log("Habit Deleted!");
+            Debug.Log("Habit Removed: " + completed);
             if (goals.Find(x => (x.getGoal() == Goal7Text.text)) != null)
             {
                 goals.Remove(goals.Find(x => (x.getGoal() == Goal7Text.text)));
@@ -675,20 +675,20 @@ public class MainController : MonoBehaviour
         updateGoals();
     }
 
-    public void deleteGoal8ButtonHandler()
+    public void Goal8ButtonHandler(bool completed)
     {
         if (isTodaySelected)
         {
-            Debug.Log("Goal Deleted!");
+            Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal8Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal8Text.text)).setCompleted(true);
+                habits.Find(x => (x.getHabit() == Goal8Text.text)).setCompleted(completed);
             }
             goals.RemoveAt(7);
         }
         else
         {
-            Debug.Log("Habit Deleted!");
+            Debug.Log("Habit Removed: " + completed);
             if (goals.Find(x => (x.getGoal() == Goal8Text.text)) != null)
             {
                 goals.Remove(goals.Find(x => (x.getGoal() == Goal8Text.text)));
@@ -698,7 +698,4 @@ public class MainController : MonoBehaviour
         SaveState();
         updateGoals();
     }
-
-    public void completeGoal1ButtonHandler() { }
-
 }

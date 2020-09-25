@@ -3352,8 +3352,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1125562531}
-        m_MethodName: deleteGoal2ButtonHandler
-        m_Mode: 1
+        m_MethodName: Goal2ButtonHandler
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4842,7 +4842,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 571985015}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125562531}
+        m_MethodName: Goal1ButtonHandler
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &571985015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5475,7 +5486,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 682192031}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125562531}
+        m_MethodName: Goal2ButtonHandler
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &682192031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5595,8 +5617,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1125562531}
-        m_MethodName: deleteGoal4ButtonHandler
-        m_Mode: 1
+        m_MethodName: Goal4ButtonHandler
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6348,7 +6370,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 855697096}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125562531}
+        m_MethodName: Goal4ButtonHandler
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &855697096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7081,8 +7114,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1125562531}
-        m_MethodName: deleteGoal1ButtonHandler
-        m_Mode: 1
+        m_MethodName: Goal1ButtonHandler
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8295,8 +8328,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1125562531}
-        m_MethodName: deleteGoal3ButtonHandler
-        m_Mode: 1
+        m_MethodName: Goal6ButtonHandler
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8965,8 +8998,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1125562531}
-        m_MethodName: deleteGoal3ButtonHandler
-        m_Mode: 1
+        m_MethodName: Goal5ButtonHandler
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10378,8 +10411,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1125562531}
-        m_MethodName: deleteGoal3ButtonHandler
-        m_Mode: 1
+        m_MethodName: Goal3ButtonHandler
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -11701,7 +11734,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1468063918}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125562531}
+        m_MethodName: Goal7ButtonHandler
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1468063918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11821,8 +11865,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1125562531}
-        m_MethodName: deleteGoal3ButtonHandler
-        m_Mode: 1
+        m_MethodName: Goal8ButtonHandler
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12490,7 +12534,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1544108806}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125562531}
+        m_MethodName: Goal3ButtonHandler
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1544108806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12993,7 +13048,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1623372897}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125562531}
+        m_MethodName: Goal5ButtonHandler
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1623372897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13568,8 +13634,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1125562531}
-        m_MethodName: deleteGoal3ButtonHandler
-        m_Mode: 1
+        m_MethodName: Goal7ButtonHandler
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -13850,7 +13916,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1761481426}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125562531}
+        m_MethodName: Goal6ButtonHandler
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1761481426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14485,7 +14562,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1876028484}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1125562531}
+        m_MethodName: Goal8ButtonHandler
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1876028484
 MonoBehaviour:
   m_ObjectHideFlags: 0

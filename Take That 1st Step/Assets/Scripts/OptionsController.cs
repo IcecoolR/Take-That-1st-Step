@@ -154,12 +154,15 @@ public class OptionsController : MonoBehaviour
     }
 
     public void achievementGot(int index) {
-        achievements[index].setCompleted(true);
-        completedAch[index] = true;
+        if (!achievements[index].isCompleted())
+        {
+            achievements[index].setCompleted(true);
+            completedAch[index] = true;
 
-        mainController.getPlayer().setAchievements(completedAch);
-        mainController.SaveState();
-        updateAchievements();
+            mainController.getPlayer().setAchievements(completedAch);
+            mainController.SaveState();
+            updateAchievements();
+        }
     }
 
     private void updateAchievements() {

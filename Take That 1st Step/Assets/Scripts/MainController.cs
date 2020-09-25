@@ -398,7 +398,7 @@ public class MainController : MonoBehaviour
         {
             NewGoalPanelTitle.text = "New Habit";
             NewGoalInf.placeholder.GetComponent<TMP_Text>().text = "Enter a new habit...";
-            NumberOfDaysDropdown.value = 6;
+            NumberOfDaysDropdown.value = 2;
             NumberOfDaysText.gameObject.SetActive(true);
             NumberOfDaysDropdown.gameObject.SetActive(true);
         }

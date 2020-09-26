@@ -491,10 +491,17 @@ public class MainController : MonoBehaviour
                 {
 
                     Debug.Log("Habit Created!");
-                    optionsController.achievementGot(2);
                     Habit habit = new Habit(NewGoalInf.text, int.Parse(NumberOfDaysDropdown.options[NumberOfDaysDropdown.value].text));
                     habits.Add(habit);
                     goals.Add(habit.createGoal());
+
+                    optionsController.achievementGot(2);
+                    if (habits.Count == 2) {
+                        optionsController.achievementGot(6);
+                    }
+                    else if (habits.Count == 6) {
+                        optionsController.achievementGot(7);
+                    }
 
                     updateGoals();
 

@@ -549,4 +549,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Richard/Documents/Home, Jobs & Finance/Apps/Backup/Build/Build1.apk
+  playerPath: C:/Users/Richard/Documents/Home, Jobs & Finance/Apps/Backup/Build/v0.3.apk

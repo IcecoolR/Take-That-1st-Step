@@ -494,6 +494,7 @@ public class MainController : MonoBehaviour
                     optionsController.achievementGot(2);
                     Habit habit = new Habit(NewGoalInf.text, int.Parse(NumberOfDaysDropdown.options[NumberOfDaysDropdown.value].text));
                     habits.Add(habit);
+                    goals.Add(habit.createGoal());
 
                     updateGoals();
 

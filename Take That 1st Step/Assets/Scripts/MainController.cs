@@ -520,14 +520,11 @@ public class MainController : MonoBehaviour
             if (completed) {
                 optionsController.achievementGot(3);
                 player.incrementGoalCount();
-                if (player.getGoalCount() == 3) {
+                if (player.getGoalCount() == 20) {
                     optionsController.achievementGot(4);
                 }
-                if (player.getGoalCount() == 20) {
-                    optionsController.achievementGot(5);
-                }
                 if (player.getGoalCount() == 100) {
-                    optionsController.achievementGot(6);
+                    optionsController.achievementGot(5);
                 }
             }
 
@@ -560,16 +557,16 @@ public class MainController : MonoBehaviour
             {
                 optionsController.achievementGot(3);
                 player.incrementGoalCount();
-                if (player.getGoalCount() == 3) {
+                if (player.getGoalCount() == 20)
+                {
                     optionsController.achievementGot(4);
                 }
-                if (player.getGoalCount() == 20) {
+                if (player.getGoalCount() == 100)
+                {
                     optionsController.achievementGot(5);
                 }
-                if (player.getGoalCount() == 100) {
-                    optionsController.achievementGot(6);
-                }
             }
+
 
             goals.RemoveAt(1);
         }
@@ -600,16 +597,16 @@ public class MainController : MonoBehaviour
             {
                 optionsController.achievementGot(3);
                 player.incrementGoalCount();
-                if (player.getGoalCount() == 3) {
+                if (player.getGoalCount() == 20)
+                {
                     optionsController.achievementGot(4);
                 }
-                if (player.getGoalCount() == 20) {
+                if (player.getGoalCount() == 100)
+                {
                     optionsController.achievementGot(5);
                 }
-                if (player.getGoalCount() == 100) {
-                    optionsController.achievementGot(6);
-                }
             }
+
 
             goals.RemoveAt(2);
         }
@@ -636,19 +633,20 @@ public class MainController : MonoBehaviour
                 habits.Find(x => (x.getHabit() == Goal4Text.text)).setCompleted(completed);
             }
 
-            if (completed) {
+            if (completed)
+            {
                 optionsController.achievementGot(3);
                 player.incrementGoalCount();
-                if (player.getGoalCount() == 3) {
+                if (player.getGoalCount() == 20)
+                {
                     optionsController.achievementGot(4);
                 }
-                if (player.getGoalCount() == 20) {
+                if (player.getGoalCount() == 100)
+                {
                     optionsController.achievementGot(5);
                 }
-                if (player.getGoalCount() == 100) {
-                    optionsController.achievementGot(6);
-                }
             }
+
 
             goals.RemoveAt(3);
         }
@@ -675,20 +673,21 @@ public class MainController : MonoBehaviour
                 habits.Find(x => (x.getHabit() == Goal5Text.text)).setCompleted(completed);
             }
 
-            if (completed) {
+            if (completed)
+            {
                 optionsController.achievementGot(3);
                 player.incrementGoalCount();
-                if (player.getGoalCount() == 3) {
+                if (player.getGoalCount() == 20)
+                {
                     optionsController.achievementGot(4);
                 }
-                if (player.getGoalCount() == 20) {
+                if (player.getGoalCount() == 100)
+                {
                     optionsController.achievementGot(5);
-                }
-                if (player.getGoalCount() == 100) {
-                    optionsController.achievementGot(6);
                 }
             }
 
+            
             goals.RemoveAt(4);
         }
         else
@@ -717,16 +716,16 @@ public class MainController : MonoBehaviour
             if (completed) {
                 optionsController.achievementGot(3);
                 player.incrementGoalCount();
-                if (player.getGoalCount() == 3) {
+                if (player.getGoalCount() == 20)
+                {
                     optionsController.achievementGot(4);
                 }
-                if (player.getGoalCount() == 20) {
+                if (player.getGoalCount() == 100)
+                {
                     optionsController.achievementGot(5);
                 }
-                if (player.getGoalCount() == 100) {
-                    optionsController.achievementGot(6);
-                }
             }
+
 
             goals.RemoveAt(5);
         }
@@ -756,16 +755,16 @@ public class MainController : MonoBehaviour
             if (completed) {
                 optionsController.achievementGot(3);
                 player.incrementGoalCount();
-                if (player.getGoalCount() == 3) {
+                if (player.getGoalCount() == 20)
+                {
                     optionsController.achievementGot(4);
                 }
-                if (player.getGoalCount() == 20) {
+                if (player.getGoalCount() == 100)
+                {
                     optionsController.achievementGot(5);
                 }
-                if (player.getGoalCount() == 100) {
-                    optionsController.achievementGot(6);
-                }
-             }
+            }
+
 
             goals.RemoveAt(6);
         }
@@ -795,16 +794,16 @@ public class MainController : MonoBehaviour
             if (completed) {
                 optionsController.achievementGot(3);
                 player.incrementGoalCount();
-                if (player.getGoalCount() == 3) {
+                if (player.getGoalCount() == 20)
+                {
                     optionsController.achievementGot(4);
                 }
-                if (player.getGoalCount() == 20) {
+                if (player.getGoalCount() == 100)
+                {
                     optionsController.achievementGot(5);
                 }
-                if (player.getGoalCount() == 100) {
-                    optionsController.achievementGot(6);
-                }
             }
+
 
             goals.RemoveAt(7);
         }

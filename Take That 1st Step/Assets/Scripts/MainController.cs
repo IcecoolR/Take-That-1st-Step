@@ -193,7 +193,7 @@ public class MainController : MonoBehaviour
 
             foreach (Habit i in habits)
             {
-                if (goals.Find(x => (x.getGoal() == i.getHabit())) == null && !i.isCompleted())
+                if (goals.Find(x => (x.getGoal() == i.getHabit())) == null && !i.isCompletedToday())
                 {
                     goals.Add(i.createGoal());
                 }
@@ -522,7 +522,7 @@ public class MainController : MonoBehaviour
             Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal1Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal1Text.text)).setCompleted(completed);
+                habits.Find(x => (x.getHabit() == Goal1Text.text)).setCompletedToday(completed);
             }
 
             if (completed) {
@@ -558,7 +558,7 @@ public class MainController : MonoBehaviour
             Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal2Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal2Text.text)).setCompleted(completed);
+                habits.Find(x => (x.getHabit() == Goal2Text.text)).setCompletedToday(completed);
             }
 
             if (completed)
@@ -598,7 +598,7 @@ public class MainController : MonoBehaviour
             Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal3Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal3Text.text)).setCompleted(completed);
+                habits.Find(x => (x.getHabit() == Goal3Text.text)).setCompletedToday(completed);
             }
 
             if (completed)
@@ -638,7 +638,7 @@ public class MainController : MonoBehaviour
             Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal4Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal4Text.text)).setCompleted(completed);
+                habits.Find(x => (x.getHabit() == Goal4Text.text)).setCompletedToday(completed);
             }
 
             if (completed)
@@ -678,7 +678,7 @@ public class MainController : MonoBehaviour
             Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal5Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal5Text.text)).setCompleted(completed);
+                habits.Find(x => (x.getHabit() == Goal5Text.text)).setCompletedToday(completed);
             }
 
             if (completed)
@@ -718,7 +718,7 @@ public class MainController : MonoBehaviour
             Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal6Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal6Text.text)).setCompleted(completed);
+                habits.Find(x => (x.getHabit() == Goal6Text.text)).setCompletedToday(completed);
             }
 
             if (completed) {
@@ -757,7 +757,7 @@ public class MainController : MonoBehaviour
             Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal7Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal7Text.text)).setCompleted(completed);
+                habits.Find(x => (x.getHabit() == Goal7Text.text)).setCompletedToday(completed);
             }
 
             if (completed) {
@@ -796,7 +796,7 @@ public class MainController : MonoBehaviour
             Debug.Log("Goal Removed: " + completed);
             if (habits.Find(x => (x.getHabit() == Goal8Text.text)) != null)
             {
-                habits.Find(x => (x.getHabit() == Goal8Text.text)).setCompleted(completed);
+                habits.Find(x => (x.getHabit() == Goal8Text.text)).setCompletedToday(completed);
             }
 
             if (completed) {

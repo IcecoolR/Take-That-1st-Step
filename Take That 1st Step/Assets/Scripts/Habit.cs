@@ -9,6 +9,7 @@ public class Habit
     private string habit;
     private int daysLeft;
     private bool completed;
+    private bool completedToday;
     private System.DateTime timeCreated;
 
     public Habit()
@@ -17,6 +18,7 @@ public class Habit
         this.habit = "";
         this.daysLeft = 0;
         this.completed = true;
+        this.completedToday = false;
         this.timeCreated = System.DateTime.Now.Date;
 
     }
@@ -26,6 +28,7 @@ public class Habit
         this.habit = habit;
         this.daysLeft = daysLeft;
         this.completed = true;
+        this.completedToday = false;
         this.timeCreated = System.DateTime.Now.Date;
 
     }
@@ -34,12 +37,20 @@ public class Habit
         return habit;
     }
 
-    public void setCompleted(bool completed) {
-        this.completed = this.completed && completed;
+    public void setCompleted() {
+        this.completed = this.completed && completedToday;
     }
 
     public bool isCompleted() {
         return this.completed;
+    }
+
+    public void setCompletedToday(bool completedToday) {
+        this.completedToday = completedToday;
+    }
+
+    public bool isCompletedToday() {
+        return this.completedToday;
     }
 
     public int getDaysLeft() {

@@ -177,6 +177,7 @@ public class MainController : MonoBehaviour
         else if (lastSave.AddDays(1).Date == time.Date)
         {
             Debug.Log("New Day!");
+            goals.Clear();
 
             for (int i = 0; i < habits.Count; i++)
             {
@@ -184,9 +185,18 @@ public class MainController : MonoBehaviour
                 Debug.Log("HABIT: " + habits[i].getHabit() + "   | DAYSLEFT: " + habits[i].getDaysLeft());
                 if (habits[i].getDaysLeft() == 0)
                 {
+                    Debug.Log("Active for: " + habits[i].getForLeft());
                     if (habits[i].isCompleted())
                     {
                         Debug.Log("Successful habit: " + habits[i].getHabit());
+                        if (habits[i].getForLeft() >= 14)
+                        {
+                            optionsController.achievementGot(8);
+                        }
+                        if (habits[i].getForLeft() >= 31)
+                        {
+                            optionsController.achievementGot(9);
+                        }
                     }
                     habits.RemoveAt(i);
                     i--;
@@ -197,10 +207,23 @@ public class MainController : MonoBehaviour
                     habits[i].setCompletedToday(false);
                 }
             }
+
+            foreach (Habit i in habits)
+            {
+                if (goals.Find(x => (x.getGoal() == i.getHabit())) == null && !i.isCompletedToday())
+                {
+                    goals.Add(i.createGoal());
+                }
+            }
+
             SaveState();
         }
         else {
+
+            goals.Clear();
+
             int difference = (lastSave - time).Days;
+
             for (int i = 0; i < habits.Count; i++) {
                 habits[i].reduceDaysLeft(difference);
                 if (habits[i].getDaysLeft() <= 0) {
@@ -213,6 +236,15 @@ public class MainController : MonoBehaviour
                     habits[i].setCompletedToday(false);
                 }
             }
+
+            foreach (Habit i in habits)
+            {
+                if (goals.Find(x => (x.getGoal() == i.getHabit())) == null && !i.isCompletedToday())
+                {
+                    goals.Add(i.createGoal());
+                }
+            }
+
             SaveState();
         }
 
@@ -240,13 +272,6 @@ public class MainController : MonoBehaviour
         {
             Debug.Log("Updating Goals!");
 
-            foreach (Habit i in habits)
-            {
-                if (goals.Find(x => (x.getGoal() == i.getHabit())) == null && !i.isCompletedToday())
-                {
-                    goals.Add(i.createGoal());
-                }
-            }
             if (goals.Count != 0)
             {
                 if (goals.Count >= 1)

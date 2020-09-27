@@ -20,5 +20,4 @@ public class PlayerData
         lastSave = player.getLastSaveTime();
 
     }
-
 }

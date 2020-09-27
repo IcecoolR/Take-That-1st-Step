@@ -38,5 +38,4 @@ public static class SaveLoadSystem {
             return LoadPlayer();
         }
     }
-
 }

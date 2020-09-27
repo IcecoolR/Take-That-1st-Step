@@ -134,7 +134,7 @@ public class OptionsController : MonoBehaviour
     private int buttonSelected = 0;
     private List<Achievement> achievements = new List<Achievement>();
     private List<bool> completedAch = new List<bool>();
-
+    
 
     public void initaliseAchievements() {
         completedAch = mainController.getPlayer().getAchievements();
@@ -259,7 +259,7 @@ public class OptionsController : MonoBehaviour
         }
     }
 
-    public void CloseInformationTabButtonHandler() {
+    private void CloseInformationTabButtonHandler() {
         Debug.Log("Information Panel Closed!");
         buttonSelected = 0;
         InformationPanel.SetActive(false);

@@ -57,5 +57,4 @@ public class Achievement
     public void setCompleted(bool completed) {
         this.completed = completed;
     }
-
 }

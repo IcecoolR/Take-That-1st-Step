@@ -76,5 +76,4 @@ public class Habit
     public Goal createGoal() {
         return new Goal(habit);
     }
-
 }

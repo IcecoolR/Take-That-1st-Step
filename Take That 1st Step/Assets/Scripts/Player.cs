@@ -39,7 +39,7 @@ public class Player
     }
 
     public void SavePlayer() {
-        this.lastSave = System.DateTime.Now.AddDays(-1);
+        this.lastSave = System.DateTime.Now;
         SaveLoadSystem.SaveSystem(this);
     }
 
@@ -98,5 +98,4 @@ public class Player
     public void setGoalCount(int goalCount) {
         this.goalCount = goalCount;
     }
-
 }

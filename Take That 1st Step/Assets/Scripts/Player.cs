@@ -10,6 +10,7 @@ public class Player
     private List<Habit> habits;
     private List<bool> achievements;
     private int goalCount;
+    private System.DateTime lastSave;
 
     public Player() {
         this.goals = new List<Goal>();
@@ -26,6 +27,7 @@ public class Player
         this.achievements.Add(false);
         this.achievements.Add(false);
         this.goalCount = 0;
+        this.lastSave = System.DateTime.Now;
     }
 
     public Player(List<Goal> goals, List<Habit> habits, List<bool> achievements) {
@@ -33,9 +35,11 @@ public class Player
         this.habits = habits;
         this.achievements = achievements;
         this.goalCount = 0;
+        this.lastSave = System.DateTime.Now;
     }
 
     public void SavePlayer() {
+        this.lastSave = System.DateTime.Now.AddDays(-1);
         SaveLoadSystem.SaveSystem(this);
     }
 
@@ -47,6 +51,7 @@ public class Player
             this.setHabits(new List<Habit>(data.habits));
             this.setAchievements(new List<bool>(data.achievements));
             this.setGoalCount(data.goalCount);
+            this.setLastSaveTime(data.lastSave);
         }
     }
 
@@ -66,6 +71,10 @@ public class Player
         return goalCount;
     }
 
+    public System.DateTime getLastSaveTime() {
+        return lastSave;
+    }
+
     public void setGoals(List<Goal> goals) {
         this.goals = goals;
     }
@@ -76,6 +85,10 @@ public class Player
 
     public void setAchievements(List<bool> achievements) {
         this.achievements = achievements;
+    }
+
+    public void setLastSaveTime(System.DateTime lastSave) {
+        this.lastSave = lastSave;
     }
 
     public void incrementGoalCount() {

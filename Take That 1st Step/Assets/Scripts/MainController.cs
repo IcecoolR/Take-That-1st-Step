@@ -170,6 +170,55 @@ public class MainController : MonoBehaviour
         habits = player.getHabits();
         optionsController.initaliseAchievements();
 
+        System.DateTime time = System.DateTime.Now;
+        System.DateTime lastSave = player.getLastSaveTime();
+
+        if (lastSave.Date == time.Date) { }
+        else if (lastSave.AddDays(1).Date == time.Date)
+        {
+            Debug.Log("New Day!");
+
+            for (int i = 0; i < habits.Count; i++)
+            {
+                habits[i].reduceDaysLeft(1);
+                Debug.Log("HABIT: " + habits[i].getHabit() + "   | DAYSLEFT: " + habits[i].getDaysLeft());
+                if (habits[i].getDaysLeft() == 0)
+                {
+                    if (habits[i].isCompleted())
+                    {
+                        Debug.Log("Successful habit: " + habits[i].getHabit());
+                    }
+                    habits.RemoveAt(i);
+                    i--;
+                }
+                else
+                {
+                    habits[i].updateCompleted();
+                    habits[i].setCompletedToday(false);
+                }
+            }
+            SaveState();
+        }
+        else {
+            int difference = (lastSave - time).Days;
+            for (int i = 0; i < habits.Count; i++) {
+                habits[i].reduceDaysLeft(difference);
+                if (habits[i].getDaysLeft() <= 0) {
+                    habits.RemoveAt(i);
+                    i--;
+                }
+                else
+                {
+                    habits[i].setCompleted(false);
+                    habits[i].setCompletedToday(false);
+                }
+            }
+            SaveState();
+        }
+
+        Debug.Log("Current Time: " + time);
+        Debug.Log("Last Save: " + lastSave);
+
         updateGoals();
     }
 

@@ -37,8 +37,12 @@ public class Habit
         return habit;
     }
 
-    public void setCompleted() {
+    public void updateCompleted() {
         this.completed = this.completed && completedToday;
+    }
+
+    public void setCompleted(bool completed) {
+        this.completed = completed;
     }
 
     public bool isCompleted() {
@@ -55,6 +59,14 @@ public class Habit
 
     public int getDaysLeft() {
         return daysLeft;
+    }
+
+    public void reduceDaysLeft(int number) {
+        this.daysLeft = daysLeft - number;
+    }
+
+    public void setDaysLeft(int daysLeft) {
+        this.daysLeft = daysLeft;
     }
 
     public System.DateTime getTimeCreated() {

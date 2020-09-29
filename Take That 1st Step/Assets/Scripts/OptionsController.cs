@@ -19,7 +19,7 @@ public class OptionsController : MonoBehaviour
 
     [SerializeField]
     public Button Inspirationbtn;
-
+    
     [SerializeField]
     public GameObject InspirationObject;
 

@@ -10536,10 +10536,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
+  m_text: 'References:
 
-
-    References:
 
 
 
@@ -10554,8 +10552,9 @@ MonoBehaviour:
 
 
 
+
     Special
-    thanks to Ms C. Woolley for ideas and testing!
+    thanks to Ms C. Woolley for ideas and resources.
 
     Created by Mr R. Woolley.'
   m_isRightToLeft: 0
@@ -12771,7 +12770,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1663119222
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12793,8 +12792,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 40, y: -158.7}
-  m_SizeDelta: {x: 320, y: 523.46}
+  m_AnchoredPosition: {x: 38.26, y: -158.7}
+  m_SizeDelta: {x: 340, y: 523.46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1663119223
 MonoBehaviour:
@@ -12941,8 +12940,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0012531, y: -0.001255}
-  m_SizeDelta: {x: 320, y: 491.34}
+  m_AnchoredPosition: {x: 0, y: -10}
+  m_SizeDelta: {x: 320, y: 485}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1678025238
 MonoBehaviour:
@@ -13579,7 +13578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1866644857
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13597,8 +13596,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0002594, y: -14.3300085}
-  m_SizeDelta: {x: 320, y: 491.34}
+  m_AnchoredPosition: {x: 0.000069618, y: -0.53121}
+  m_SizeDelta: {x: 340, y: 518.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1870349418
 GameObject:

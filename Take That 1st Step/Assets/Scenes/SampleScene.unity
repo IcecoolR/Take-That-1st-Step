@@ -541,8 +541,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 247.1}
-  m_SizeDelta: {x: 320, y: 23.67}
+  m_AnchoredPosition: {x: -1.4, y: 247.1}
+  m_SizeDelta: {x: 337.2, y: 23.674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &50275033
 MonoBehaviour:
@@ -591,8 +591,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -2805,8 +2805,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -14.33}
-  m_SizeDelta: {x: 320, y: 491.34}
+  m_AnchoredPosition: {x: -1.4, y: -12.368}
+  m_SizeDelta: {x: 337.2, y: 495.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &396160092
 GameObject:
@@ -2866,14 +2866,14 @@ MonoBehaviour:
   m_text: Complete 20 goals.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -3181,14 +3181,14 @@ MonoBehaviour:
   m_text: One of Many
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -3825,7 +3825,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 147.2, y: 246.6}
+  m_AnchoredPosition: {x: 153.9, y: 246.6}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &496555352
@@ -4132,14 +4132,14 @@ MonoBehaviour:
   m_text: Create a habit.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -4448,14 +4448,14 @@ MonoBehaviour:
   m_text: Complete a habit that lasted for at least 31 days.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -5167,14 +5167,14 @@ MonoBehaviour:
   m_text: Secure Habit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -6028,8 +6028,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0012622, y: -237}
-  m_SizeDelta: {x: 340, y: 39.2}
+  m_AnchoredPosition: {x: 0.0012622, y: -226.76}
+  m_SizeDelta: {x: 340, y: 41.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &787282507
 MonoBehaviour:
@@ -6096,7 +6096,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 105
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -6120,12 +6120,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 787282507}
-    characterCount: 112
+    characterCount: 100
     spriteCount: 0
-    spaceCount: 18
-    wordCount: 19
+    spaceCount: 17
+    wordCount: 18
     linkCount: 0
-    lineCount: 3
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -6209,14 +6209,14 @@ MonoBehaviour:
   m_text: Have 2 habits active.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -6493,14 +6493,14 @@ MonoBehaviour:
   m_text: Just The Beginning
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -7485,14 +7485,14 @@ MonoBehaviour:
   m_text: Have 6 habits active.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -7707,14 +7707,14 @@ MonoBehaviour:
   m_text: Seeking Improvement
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -7863,14 +7863,14 @@ MonoBehaviour:
   m_text: Create a goal.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -8556,14 +8556,14 @@ MonoBehaviour:
   m_text: Those First Steps
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -9226,14 +9226,14 @@ MonoBehaviour:
   m_text: Thank you for downloading!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -9537,14 +9537,14 @@ MonoBehaviour:
   m_text: Twenty Steps
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -10387,14 +10387,14 @@ MonoBehaviour:
   m_text: Goal1 Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1afbabea1bb1e844ab4d16a667a9b339, type: 2}
-  m_sharedMaterial: {fileID: 8770607581304969645, guid: fbdf2b0b56e2eda4e913965478d160d6,
+  m_sharedMaterial: {fileID: -5872012956809023467, guid: 1afbabea1bb1e844ab4d16a667a9b339,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -10674,8 +10674,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.4, y: 2.515}
-  m_SizeDelta: {x: 326.16, y: 490.23}
+  m_AnchoredPosition: {x: 0.58, y: 0.000016212}
+  m_SizeDelta: {x: 329.42, y: 495.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1367703019
 MonoBehaviour:
@@ -10703,35 +10703,34 @@ MonoBehaviour:
     & References:</b>
 
 
-    mind.org.uk - Taking care of yourself [online]
+    mind.org.uk - Taking care of yourself
 
 
-    nhs.uk
-    - Mental health and wellbeing [online]
+    nhs.uk -
+    Mental health and wellbeing
 
 
-    nhs.uk - Exercise [online]
+    nhs.uk - Exercise
 
 
-    Neff,
-    K. & Germer, C., 2018. <i>The Mindful Self-Compassion Workbook: A Proven Way
-    To Accept Yourself, Build Inner Strength, And Thrive. </i>New York: The Guilford
-    Press.
+    Neff, K. & Germer,
+    C., 2018. <i>The Mindful Self-Compassion Workbook: A Proven Way To Accept Yourself,
+    Build Inner Strength, And Thrive. </i>New York: The Guilford Press.
 
 
     <b>Fonts:</b>
 
-    Nunito (Regular)
+    Nunito
+    (Regular)
 
     Gaegu (Regular)
 
 
-    <align=center><b>Special
-    thanks to Ms C. Woolley for helping throughout development.
+    <align=center><b>Special thanks to Ms C.
+    Woolley for helping throughout development.
 
 
-    Created by
-    Mr R. Woolley. </b></align>'
+    Created by Mr R. Woolley. </b></align>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
   m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
@@ -10801,10 +10800,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1367703019}
-    characterCount: 581
+    characterCount: 557
     spriteCount: 0
-    spaceCount: 100
-    wordCount: 94
+    spaceCount: 97
+    wordCount: 91
     linkCount: 0
     lineCount: 25
     pageCount: 1
@@ -10965,14 +10964,14 @@ MonoBehaviour:
   m_text: The First Step
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -11959,14 +11958,14 @@ MonoBehaviour:
   m_text: Complete 100 goals.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -13115,8 +13114,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 6.105}
-  m_SizeDelta: {x: 320, y: 450}
+  m_AnchoredPosition: {x: -0.48, y: 16.29}
+  m_SizeDelta: {x: 330, y: 460}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1678025238
 MonoBehaviour:
@@ -13469,14 +13468,14 @@ MonoBehaviour:
   m_text: Regular Habit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -13772,8 +13771,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000069618, y: -0.53121}
-  m_SizeDelta: {x: 340, y: 518.94}
+  m_AnchoredPosition: {x: 0.000069618, y: -12.37}
+  m_SizeDelta: {x: 340, y: 495.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1870349418
 GameObject:
@@ -13833,14 +13832,14 @@ MonoBehaviour:
   m_text: Complete a goal.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -14728,14 +14727,14 @@ MonoBehaviour:
   m_text: Complete a habit that lasted for at least 14 days.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -14884,14 +14883,14 @@ MonoBehaviour:
   m_text: That First Step
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -15040,14 +15039,14 @@ MonoBehaviour:
   m_text: Continuous Improvement
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
-  m_sharedMaterial: {fileID: -5894083359768934028, guid: aa59ef86ff9c7f741a4f854fd6ebe8af,
+  m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -15387,13 +15386,14 @@ MonoBehaviour:
   m_text: X
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1afbabea1bb1e844ab4d16a667a9b339, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5872012956809023467, guid: 1afbabea1bb1e844ab4d16a667a9b339,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -15429,7 +15429,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0

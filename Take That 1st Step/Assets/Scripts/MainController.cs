@@ -185,15 +185,15 @@ public class MainController : MonoBehaviour
                 Debug.Log("HABIT: " + habits[i].getHabit() + "   | DAYSLEFT: " + habits[i].getDaysLeft());
                 if (habits[i].getDaysLeft() == 0)
                 {
-                    Debug.Log("Active for: " + habits[i].getForLeft());
+                    Debug.Log("Active for: " + habits[i].getDaysFor());
                     if (habits[i].isCompleted())
                     {
                         Debug.Log("Successful habit: " + habits[i].getHabit());
-                        if (habits[i].getForLeft() >= 14)
+                        if (habits[i].getDaysFor() >= 14)
                         {
                             optionsController.achievementGot(8);
                         }
-                        if (habits[i].getForLeft() >= 31)
+                        if (habits[i].getDaysFor() >= 31)
                         {
                             optionsController.achievementGot(9);
                         }

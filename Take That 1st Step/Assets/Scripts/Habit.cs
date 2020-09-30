@@ -57,7 +57,7 @@ public class Habit
         return this.completedToday;
     }
 
-    public int getForLeft() {
+    public int getDaysFor() {
         return daysFor;
     }
 

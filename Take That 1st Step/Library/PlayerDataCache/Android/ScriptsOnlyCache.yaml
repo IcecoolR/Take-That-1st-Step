@@ -99,8 +99,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13124}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
@@ -549,4 +547,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Richard/Documents/Home, Jobs & Finance/Apps/Backup/Build/v0.4.apk
+  playerPath: C:/Users/Richard/Documents/Home, Jobs & Finance/Apps/Backup/Build/v0.5.apk

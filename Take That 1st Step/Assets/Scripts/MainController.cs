@@ -463,18 +463,29 @@ public class MainController : MonoBehaviour
     {
         if (isTodaySelected)
         {
-            NewGoalPanelTitle.text = "New Step";
-            NewGoalInf.placeholder.GetComponent<TMP_Text>().text = "Enter a step for today...";
-            NumberOfDaysText.gameObject.SetActive(false);
-            NumberOfDaysDropdown.gameObject.SetActive(false);
+            if (goals.Count < 8)
+            {
+                NewGoalPanelTitle.text = "New Step";
+                NewGoalInf.placeholder.GetComponent<TMP_Text>().text = "Enter a step for today...";
+                NumberOfDaysText.gameObject.SetActive(false);
+                NumberOfDaysDropdown.gameObject.SetActive(false);
+            } else {
+                NewGoalPanel.SetActive(false);
+                NewGoalbtn.interactable = true;
+            }
         }
         else
         {
-            NewGoalPanelTitle.text = "New Habit";
-            NewGoalInf.placeholder.GetComponent<TMP_Text>().text = "Enter a new habit...";
-            NumberOfDaysDropdown.value = 2;
-            NumberOfDaysText.gameObject.SetActive(true);
-            NumberOfDaysDropdown.gameObject.SetActive(true);
+            if (habits.Count < 8) {
+                NewGoalPanelTitle.text = "New Habit";
+                NewGoalInf.placeholder.GetComponent<TMP_Text>().text = "Enter a new habit...";
+                NumberOfDaysDropdown.value = 2;
+                NumberOfDaysText.gameObject.SetActive(true);
+                NumberOfDaysDropdown.gameObject.SetActive(true);
+            } else {
+                NewGoalPanel.SetActive(false);
+                NewGoalbtn.interactable = true;
+            }
         }
         NewGoalInf.text = "";
     }
@@ -504,6 +515,7 @@ public class MainController : MonoBehaviour
         Debug.Log("New!");
         NewGoalbtn.interactable = false;
         NewGoalPanel.SetActive(true);
+        updateNewGoalPopup();
     }
 
     public void closeNewGoalPanelButtonHandler()

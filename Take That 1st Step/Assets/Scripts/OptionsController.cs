@@ -38,16 +38,10 @@ public class OptionsController : MonoBehaviour
     public TMP_Text Ach1Title;
 
     [SerializeField]
-    public TMP_Text Ach1Description;
-
-    [SerializeField]
     public Image Ach2Background;
 
     [SerializeField]
     public TMP_Text Ach2Title;
-
-    [SerializeField]
-    public TMP_Text Ach2Description;
 
     [SerializeField]
     public Image Ach3Background;
@@ -56,16 +50,10 @@ public class OptionsController : MonoBehaviour
     public TMP_Text Ach3Title;
 
     [SerializeField]
-    public TMP_Text Ach3Description;
-
-    [SerializeField]
     public Image Ach4Background;
 
     [SerializeField]
     public TMP_Text Ach4Title;
-
-    [SerializeField]
-    public TMP_Text Ach4Description;
 
     [SerializeField]
     public Image Ach5Background;
@@ -92,16 +80,10 @@ public class OptionsController : MonoBehaviour
     public TMP_Text Ach7Title;
 
     [SerializeField]
-    public TMP_Text Ach7Description;
-
-    [SerializeField]
     public Image Ach8Background;
 
     [SerializeField]
     public TMP_Text Ach8Title;
-
-    [SerializeField]
-    public TMP_Text Ach8Description;
 
     [SerializeField]
     public Image Ach9Background;
@@ -110,16 +92,10 @@ public class OptionsController : MonoBehaviour
     public TMP_Text Ach9Title;
 
     [SerializeField]
-    public TMP_Text Ach9Description;
-
-    [SerializeField]
     public Image Ach10Background;
 
     [SerializeField]
     public TMP_Text Ach10Title;
-
-    [SerializeField]
-    public TMP_Text Ach10Description;
 
     [Header("About objects")]
 

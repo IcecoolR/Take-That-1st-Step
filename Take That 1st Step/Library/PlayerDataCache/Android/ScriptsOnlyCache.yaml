@@ -258,7 +258,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 4a636ad7e1c13c9de40146c4aa600daa
+      Hash: f9eba3af5ec8a46cf34d25e243aa5955
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OptionsController
@@ -548,4 +548,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   playerPath: C:/Users/Richard/Documents/Home, Jobs & Finance/Apps/Take That 1st
-    Step/Builds/v0.4.apk
+    Step/Builds/v0.5.apk

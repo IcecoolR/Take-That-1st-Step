@@ -7242,16 +7242,12 @@ MonoBehaviour:
   AchievementsObject: {fileID: 329981032}
   Ach1Background: {fileID: 328046787}
   Ach1Title: {fileID: 1399793968}
-  Ach1Description: {fileID: 1160216657}
   Ach2Background: {fileID: 1019156026}
   Ach2Title: {fileID: 1991169013}
-  Ach2Description: {fileID: 1076674464}
   Ach3Background: {fileID: 930835505}
   Ach3Title: {fileID: 1113042374}
-  Ach3Description: {fileID: 502965171}
   Ach4Background: {fileID: 1228219643}
   Ach4Title: {fileID: 461005495}
-  Ach4Description: {fileID: 1870349420}
   Ach5Background: {fileID: 1395355748}
   Ach5Title: {fileID: 1197075214}
   Ach5Description: {fileID: 396160094}
@@ -7260,16 +7256,12 @@ MonoBehaviour:
   Ach6Description: {fileID: 1501623273}
   Ach7Background: {fileID: 1607055298}
   Ach7Title: {fileID: 2000728550}
-  Ach7Description: {fileID: 833596665}
   Ach8Background: {fileID: 470133316}
   Ach8Title: {fileID: 1062153884}
-  Ach8Description: {fileID: 1046508637}
   Ach9Background: {fileID: 1668833035}
   Ach9Title: {fileID: 1763944872}
-  Ach9Description: {fileID: 1975907998}
   Ach10Background: {fileID: 42356069}
   Ach10Title: {fileID: 680365591}
-  Ach10Description: {fileID: 538828081}
   Aboutbtn: {fileID: 594618729}
   AboutObject: {fileID: 2053411132}
   mainController: {fileID: 1125562531}

@@ -185,7 +185,6 @@ public class OptionsController : MonoBehaviour
     }
 
     public void InspirationButtonHandler() {
-        Debug.Log("Inspiration!");
         if (buttonSelected != 1)
         {
             TitleText.text = "Inspiration";
@@ -201,7 +200,6 @@ public class OptionsController : MonoBehaviour
     }
 
     public void AchievementsButtonHandler() {
-        Debug.Log("Achievements!");
         if (buttonSelected != 2)
         {
             updateAchievements();
@@ -219,7 +217,6 @@ public class OptionsController : MonoBehaviour
     }
 
     public void AboutButtonHandler() {
-        Debug.Log("About!");
         if (buttonSelected != 3)
         {
             TitleText.text = "About";
@@ -236,7 +233,6 @@ public class OptionsController : MonoBehaviour
     }
 
     private void CloseInformationTabButtonHandler() {
-        Debug.Log("Information Panel Closed!");
         buttonSelected = 0;
         InformationPanel.SetActive(false);
     }

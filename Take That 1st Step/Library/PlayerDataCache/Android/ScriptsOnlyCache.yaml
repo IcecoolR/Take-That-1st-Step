@@ -16,7 +16,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_InputField
     - TMPro.TMP_Settings
-    - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
@@ -75,8 +74,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11714}
     - Class: 114
       Script: {instanceID: 11814}
-    - Class: 114
-      Script: {instanceID: 11840}
     - Class: 114
       Script: {instanceID: 12012}
     - Class: 114

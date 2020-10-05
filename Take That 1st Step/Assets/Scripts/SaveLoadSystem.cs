@@ -11,8 +11,6 @@ public static class SaveLoadSystem {
         string path = Path.Combine(Application.persistentDataPath, "player.tt1s");
         FileStream stream = new FileStream(path, FileMode.Create);
 
-        Debug.Log("Saving too: " + path);
-
         PlayerData data = new PlayerData(player);
 
         formatter.Serialize(stream, data);
@@ -22,7 +20,6 @@ public static class SaveLoadSystem {
 
     public static PlayerData LoadPlayer() {
         string path = Path.Combine(Application.persistentDataPath, "player.tt1s");
-        Debug.Log("Loading from: " + path);
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();

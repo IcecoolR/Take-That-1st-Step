@@ -8,12 +8,12 @@ Start setting goals and building habits!
 Full Description (4000):
 
 
-Take That 1st Step is a minimalistic self-help app designed to encourage you to do things you might not normally do. Weather that be: meditation, exercise, improving your diet or doing random acts of kindness. With this app, you can create daily goals as well as reoccurring goals in the form of habits. 
+Take That 1st Step is a minimalistic self-help app designed to encourage you to do things you might not normally do. Weather that be: meditation, exercise, improving your diet or talking to more people. With this app, you can create daily goals as well as reoccurring goals in the form of habits. Everyone has their own story; the goals you choose to create can help develop you.
 
 <b>Features:</b>
 • Set Goals for Today - Create spontaneous things to do just for that day.
-• Begin Building Habits - Start working on building good habits.
-• Inspiration - Use internal resources to be inspired about ways to help yourself. See the resources list for even more ideas.
+• Begin Building Habits - Create a reoccurring goal to show every day. Eventually, that activity could turn into a habit.
+• Inspiration - Use internal resources to be inspired about ways to help yourself. See the resource list for even more ideas.
 • Achievements - Collect them all!
 • Ad-free and Privacy Focused - No ads and no internet permission is requested. This means that your personal data never leaves your device.
 

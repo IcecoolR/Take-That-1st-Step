@@ -10688,45 +10688,42 @@ MonoBehaviour:
 
     Please note the creator of
     this app is not a psychologist. Please consider looking at the resources below
-    for ideas on goals, goal setting and self-help.
-
-
-    <b>Recommended Resources
-    / References:</b>
+    for ideas on goals, goal setting and self-help:
 
 
     mindtool.com - SMART Goals
 
 
-    mind.org.uk - Taking
-    care of yourself
+    mind.org.uk
+    - Taking care of yourself
 
 
     nhs.uk - Mental health and wellbeing
 
 
-    nhs.uk - Exercise
+    nhs.uk
+    - Exercise
 
 
-    Neff,
-    K. & Germer, C., 2018. <i>The Mindful Self-Compassion Workbook: A Proven Way
-    To Accept Yourself, Build Inner Strength, And Thrive. </i>New York: The Guilford
-    Press.
+    Neff, K. & Germer, C., 2018. <i>The Mindful Self-Compassion
+    Workbook: A Proven Way To Accept Yourself, Build Inner Strength, And Thrive.
+    </i>New York: The Guilford Press.
 
 
     <b>Fonts:</b>
 
     Nunito (Regular)
 
-    Gaegu (Regular)
+    Gaegu
+    (Regular)
 
 
-    <align=center><b>Special
-    thanks to Ms C. Woolley for helping throughout development.
+
+    <align=center><b>Special thanks to Ms C. Woolley for helping
+    throughout development.
 
 
-    Created by
-    Mr R. Woolley (IcecoolR). </b></align>'
+    Created by Mr R. Woolley (IcecoolR). </b></align>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
   m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
@@ -10796,12 +10793,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1367703019}
-    characterCount: 741
+    characterCount: 715
     spriteCount: 0
-    spaceCount: 130
-    wordCount: 123
+    spaceCount: 126
+    wordCount: 120
     linkCount: 0
-    lineCount: 31
+    lineCount: 29
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0

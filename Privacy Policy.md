@@ -1,11 +1,11 @@
 # Privacy Policy of Take That 1st Step
-Effective Date: October 8, 2020
+Effective Date: October 9, 2020
 
 ## Collection Of Data
 
 Take That 1st Step does not require an internet connection to function. This means that your data does not leave your device. All your personal goals and habits remain on your device.
 
-Take That 1st Step does use third party services that may collect information used to identify you. See [Google's Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from sites or apps that use Google services](https://policies.google.com/technologies/partner-sites).
+Take That 1st Step does use third party services that may collect information used to identify you. See [Google's Privacy Policy](https://policies.google.com/privacy) and [How Google Uses Information From Sites or Apps That Use Google Services](https://policies.google.com/technologies/partner-sites).
 
 ## Data On Your Device
 

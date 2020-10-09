@@ -10698,32 +10698,30 @@ MonoBehaviour:
     - Taking care of yourself
 
 
-    nhs.uk - Mental health and wellbeing
+    nhs.uk - Mental health and wellbeing / Exercise
 
 
-    nhs.uk
-    - Exercise
-
-
-    Neff, K. & Germer, C., 2018. <i>The Mindful Self-Compassion
-    Workbook: A Proven Way To Accept Yourself, Build Inner Strength, And Thrive.
-    </i>New York: The Guilford Press.
+    Neff,
+    K. & Germer, C., 2018. <i>The Mindful Self-Compassion Workbook: A Proven Way
+    To Accept Yourself, Build Inner Strength, And Thrive. </i>New York: The Guilford
+    Press.
 
 
     <b>Fonts:</b>
 
     Nunito (Regular)
 
-    Gaegu
-    (Regular)
+    Gaegu (Regular)
 
 
 
-    <align=center><b>Special thanks to Ms C. Woolley for helping
-    throughout development.
+
+    <align=center><b>Special
+    thanks to Ms C. Woolley for helping throughout development.
 
 
-    Created by Mr R. Woolley (IcecoolR). </b></align>'
+    Created by
+    Mr R. Woolley (IcecoolR). </b></align>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b97285aeeedc2e74b95a9eb7c97364f2, type: 2}
   m_sharedMaterial: {fileID: -3448048569821991589, guid: b97285aeeedc2e74b95a9eb7c97364f2,
@@ -10793,12 +10791,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1367703019}
-    characterCount: 715
+    characterCount: 708
     spriteCount: 0
-    spaceCount: 126
-    wordCount: 120
+    spaceCount: 125
+    wordCount: 117
     linkCount: 0
-    lineCount: 29
+    lineCount: 28
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0

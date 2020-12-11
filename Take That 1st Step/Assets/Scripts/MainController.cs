@@ -218,7 +218,7 @@ public class MainController : MonoBehaviour
 
             goals.Clear();
 
-            int difference = (lastSave - time).Days;
+            int difference = (time - lastSave).Days;
 
             for (int i = 0; i < habits.Count; i++) {
                 habits[i].reduceDaysLeft(difference);
